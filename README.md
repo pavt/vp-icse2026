@@ -35,8 +35,15 @@ Exploration of vulnerability patterns and trends in public repositories.
 
 - **`RQ3/`**: Code and data used to answer Research Question 3 (RQ3).
 
-## Usage
-To replicate the analyses presented in the study, follow the instructions provided in each section. Ensure you meet the prerequisites listed in `requirements.txt` before running the scripts.
 
-## Contact
-For inquiries or contributions, please contact the study authors or open an issue in this repository.
+Shadows-on-the-Spotless-Workflow/
+│── data_extraction/
+│── metadata/
+│── study/
+│   ├── RQ1/
+│   ├── RQ2/
+│   ├── RQ3/
+
+
+
+
