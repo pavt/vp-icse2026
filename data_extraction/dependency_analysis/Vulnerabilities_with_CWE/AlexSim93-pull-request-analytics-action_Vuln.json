@@ -1,0 +1,34 @@
+{
+    "undici:5.28.0": {
+        "name": "undici",
+        "version": "5.28.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "Low",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "undici:5.11.0": {
+        "name": "undici",
+        "version": "5.11.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r6ch-mqf9-qc9w",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service in Headers",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-5r9g-qh6m-jxff",
+                "severity": "Medium",
+                "description": "CRLF Injection in Nodejs \u00e2\u20ac\u02dcundici\u00e2\u20ac\u2122 via host",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            {
+                "id": "GHSA-wqq4-5wpv-mx2g",
+                "severity": "Low",
+                "description": "Undici's cookie header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "Low",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

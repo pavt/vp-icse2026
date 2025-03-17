@@ -1,0 +1,50 @@
+{
+    "jsonwebtoken:8.5.1": {
+        "name": "jsonwebtoken",
+        "version": "8.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8cf7-32gw-wr33",
+                "severity": "High",
+                "description": "jsonwebtoken unrestricted key type could lead to legacy keys usage ",
+                "links": [],
+                "CWE_ID": "CWE-327",
+                "CWE_DESCRIPTION": "Use of a Broken or Risky Cryptographic Algorithm"
+            },
+            {
+                "id": "GHSA-qwph-4952-7xr6",
+                "severity": "Medium",
+                "description": "jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()",
+                "links": [],
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "Improper Authentication"
+            },
+            {
+                "id": "GHSA-hjrf-2m68-5959",
+                "severity": "Medium",
+                "description": "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+                "links": [],
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "Improper Authentication"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "micromatch:4.0.7": {
+        "name": "micromatch",
+        "version": "4.0.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "webpack:5.93.0": {
+        "name": "webpack",
+        "version": "5.93.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vvj-4cpr-p986",
+                "severity": "Medium",
+                "description": "Webpack's AutoPublicPathRuntimeModule has a DOM Clobbering Gadget that leads to XSS",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    }
+}

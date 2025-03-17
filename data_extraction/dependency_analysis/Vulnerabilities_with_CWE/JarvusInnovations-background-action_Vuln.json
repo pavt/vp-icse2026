@@ -1,0 +1,18 @@
+{
+    "axios:1.6.3": {
+        "name": "axios",
+        "version": "1.6.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8hc4-vh64-cxmj",
+                "severity": "High",
+                "description": "Server-Side Request Forgery in axios",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "npm:1.0.0": {
+        "name": "npm",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x8qc-rrcw-4r46",
+                "severity": "High",
+                "description": "npm symlink reference outside of node_modules",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-ph34-pc88-72gc",
+                "severity": "High",
+                "description": "Incorrect Permission Assignment for Critical Resource in NPM",
+                "links": [],
+                "CWE_ID": "CWE-732",
+                "CWE_DESCRIPTION": "Incorrect Permission Assignment for Critical Resource"
+            },
+            {
+                "id": "GHSA-m6cx-g6qm-p2cx",
+                "severity": "High",
+                "description": "Arbitrary File Write in npm",
+                "links": [],
+                "CWE_ID": "CWE-59",
+                "CWE_DESCRIPTION": "Improper Link Resolution Before File Access ('Link Following')"
+            },
+            {
+                "id": "GHSA-m5h6-hr3q-22h5",
+                "severity": "High",
+                "description": "npm Token Leak in npm",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-4328-8hgf-7wjr",
+                "severity": "High",
+                "description": "npm Vulnerable to Global node_modules Binary Overwrite",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-93f3-23rq-pjfp",
+                "severity": "Medium",
+                "description": "npm CLI exposing sensitive information through logs",
+                "links": [],
+                "CWE_ID": "CWE-532",
+                "CWE_DESCRIPTION": "Insertion of Sensitive Information into Log File"
+            },
+            {
+                "id": "GHSA-v3jv-wrf4-5845",
+                "severity": "Low",
+                "description": "Local Privilege Escalation in npm",
+                "links": [],
+                "CWE_ID": "CWE-59",
+                "CWE_DESCRIPTION": "Improper Link Resolution Before File Access ('Link Following')"
+            }
+        ]
+    },
+    "yarn:0.0.0-use.local": {
+        "name": "yarn",
+        "version": "0.0.0-use.local",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wqfc-cr59-h64p",
+                "severity": "High",
+                "description": "Missing Encryption of Sensitive Data in yarn",
+                "links": [],
+                "CWE_ID": "CWE-311",
+                "CWE_DESCRIPTION": "Missing Encryption of Sensitive Data"
+            },
+            {
+                "id": "GHSA-mpwj-fcr6-x34c",
+                "severity": "High",
+                "description": "Yarn untrusted search path vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-426",
+                "CWE_DESCRIPTION": "Untrusted Search Path"
+            },
+            {
+                "id": "GHSA-8mfc-v7wv-p62g",
+                "severity": "High",
+                "description": "Path Traversal in Yarn",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-5xf4-f2fq-f69j",
+                "severity": "High",
+                "description": "Yarn Improper link resolution before file access (Link Following)",
+                "links": [],
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-hjxc-462x-x77j",
+                "severity": "Medium",
+                "description": "TOCTOU Race Condition in Yarn",
+                "links": [],
+                "CWE_ID": "CWE-367",
+                "CWE_DESCRIPTION": "Time-of-check Time-of-use (TOCTOU) Race Condition"
+            }
+        ]
+    }
+}

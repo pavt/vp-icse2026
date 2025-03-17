@@ -1,0 +1,34 @@
+{
+    "nanoid:2.1.11": {
+        "name": "nanoid",
+        "version": "2.1.11",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mwcw-c2x4-8c55",
+                "severity": "Medium",
+                "description": "Predictable results in nanoid generation when given non-integer values",
+                "links": [],
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "xml2js:0.4.19": {
+        "name": "xml2js",
+        "version": "0.4.19",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-776f-qx25-q3cc",
+                "severity": "Medium",
+                "description": "xml2js is vulnerable to prototype pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    }
+}

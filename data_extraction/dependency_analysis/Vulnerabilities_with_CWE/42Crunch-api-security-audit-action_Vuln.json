@@ -1,0 +1,18 @@
+{
+    "micromatch:4.0.7": {
+        "name": "micromatch",
+        "version": "4.0.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

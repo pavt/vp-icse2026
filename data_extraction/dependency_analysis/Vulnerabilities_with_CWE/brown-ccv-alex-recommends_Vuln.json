@@ -1,0 +1,242 @@
+{
+    "@actions/core:1.2.7": {
+        "name": "@actions/core",
+        "version": "1.2.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7r3h-m5j6-3q42",
+                "severity": "Medium",
+                "description": "@actions/core has Delimiter Injection Vulnerability in exportVariable",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "ansi-regex:4.1.0": {
+        "name": "ansi-regex",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "ansi-regex:5.0.0": {
+        "name": "ansi-regex",
+        "version": "5.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "cross-spawn:6.0.5": {
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "got:9.6.0": {
+        "name": "got",
+        "version": "9.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "http-cache-semantics:4.1.0": {
+        "name": "http-cache-semantics",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "High",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimist:1.2.5": {
+        "name": "minimist",
+        "version": "1.2.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "Critical",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "node-fetch:2.6.1": {
+        "name": "node-fetch",
+        "version": "2.6.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r683-j2x4-v87g",
+                "severity": "High",
+                "description": "node-fetch forwards secure headers to untrusted sites",
+                "links": [],
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "normalize-url:4.5.0": {
+        "name": "normalize-url",
+        "version": "4.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-px4h-xg32-q955",
+                "severity": "High",
+                "description": "ReDoS in normalize-url",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "path-parse:1.0.6": {
+        "name": "path-parse",
+        "version": "1.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "trim:0.0.1": {
+        "name": "trim",
+        "version": "0.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w5p7-h5w8-2hfq",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service in trim",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "trim-newlines:3.0.0": {
+        "name": "trim-newlines",
+        "version": "3.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7p7h-4mm5-852v",
+                "severity": "High",
+                "description": "Uncontrolled Resource Consumption in trim-newlines",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

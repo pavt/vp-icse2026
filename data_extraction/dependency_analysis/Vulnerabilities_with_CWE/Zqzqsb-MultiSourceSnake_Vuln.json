@@ -1,0 +1,454 @@
+{
+    "body-parser:1.20.2": {
+        "name": "body-parser",
+        "version": "1.20.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qwcr-r2fm-qrc7",
+                "severity": "High",
+                "description": "body-parser vulnerable to denial of service when url encoding is enabled",
+                "links": [],
+                "CWE_ID": "CWE-405",
+                "CWE_DESCRIPTION": "Asymmetric Resource Consumption (Amplification)"
+            }
+        ]
+    },
+    "cookie:0.6.0": {
+        "name": "cookie",
+        "version": "0.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pxg6-pf52-xh8x",
+                "severity": "Low",
+                "description": "cookie accepts cookie name, path, and domain with out of bounds characters",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "cross-spawn:5.1.0": {
+        "name": "cross-spawn",
+        "version": "5.1.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "cross-spawn:6.0.5": {
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "express:4.19.2": {
+        "name": "express",
+        "version": "4.19.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qw6h-vgh9-j6wx",
+                "severity": "Low",
+                "description": "express vulnerable to XSS via response.redirect()",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "got:7.1.0": {
+        "name": "got",
+        "version": "7.1.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "got:8.3.2": {
+        "name": "got",
+        "version": "8.3.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "http-cache-semantics:3.8.1": {
+        "name": "http-cache-semantics",
+        "version": "3.8.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "High",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "High",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "http-proxy-middleware:2.0.6": {
+        "name": "http-proxy-middleware",
+        "version": "2.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c7qv-q95q-8v27",
+                "severity": "High",
+                "description": "Denial of service in http-proxy-middleware",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "micromatch:4.0.7": {
+        "name": "micromatch",
+        "version": "4.0.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "path-to-regexp:0.1.7": {
+        "name": "path-to-regexp",
+        "version": "0.1.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9wv6-86v2-598j",
+                "severity": "High",
+                "description": "path-to-regexp outputs backtracking regular expressions",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-rhx6-c78j-4q9w",
+                "severity": "Medium",
+                "description": "Unpatched `path-to-regexp` ReDoS in 0.1.x",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "path-to-regexp:6.2.1": {
+        "name": "path-to-regexp",
+        "version": "6.2.1",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9wv6-86v2-598j",
+                "severity": "High",
+                "description": "path-to-regexp outputs backtracking regular expressions",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-9wv6-86v2-598j",
+                "severity": "High",
+                "description": "path-to-regexp outputs backtracking regular expressions",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver-regex:2.0.0": {
+        "name": "semver-regex",
+        "version": "2.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-44c6-4v22-4mhx",
+                "severity": "High",
+                "description": "semver-regex Regular Expression Denial of Service (ReDOS)",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-44c6-4v22-4mhx",
+                "severity": "High",
+                "description": "semver-regex Regular Expression Denial of Service (ReDOS)",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4x5v-gmq8-25ch",
+                "severity": "Low",
+                "description": "Regular expression denial of service in semver-regex",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-4x5v-gmq8-25ch",
+                "severity": "Low",
+                "description": "Regular expression denial of service in semver-regex",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "send:0.18.0": {
+        "name": "send",
+        "version": "0.18.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m6fv-jmcg-4jfg",
+                "severity": "Low",
+                "description": "send vulnerable to template injection that can lead to XSS",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "serve-static:1.15.0": {
+        "name": "serve-static",
+        "version": "1.15.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cm22-4g7w-348p",
+                "severity": "Low",
+                "description": "serve-static vulnerable to template injection that can lead to XSS",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "undici:5.23.0": {
+        "name": "undici",
+        "version": "5.23.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wqq4-5wpv-mx2g",
+                "severity": "Low",
+                "description": "Undici's cookie header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-wqq4-5wpv-mx2g",
+                "severity": "Low",
+                "description": "Undici's cookie header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "Low",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "Low",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "webpack:5.88.2": {
+        "name": "webpack",
+        "version": "5.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vvj-4cpr-p986",
+                "severity": "Medium",
+                "description": "Webpack's AutoPublicPathRuntimeModule has a DOM Clobbering Gadget that leads to XSS",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "typescript-action:0.0.0": {
+        "name": "typescript-action",
+        "version": "0.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5m2h-3rg6-73mm",
+                "severity": "Critical",
+                "description": "Malware in typescript-action",
+                "links": [],
+                "CWE_ID": "CWE-506",
+                "CWE_DESCRIPTION": "Embedded Malicious Code"
+            }
+        ]
+    }
+}

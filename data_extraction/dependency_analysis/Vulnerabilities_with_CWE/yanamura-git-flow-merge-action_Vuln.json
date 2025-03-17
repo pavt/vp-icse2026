@@ -1,0 +1,82 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "micromatch:4.0.5": {
+        "name": "micromatch",
+        "version": "4.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "word-wrap:1.2.3": {
+        "name": "word-wrap",
+        "version": "1.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8xg-fqg3-53r7",
+                "severity": "Medium",
+                "description": "word-wrap vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

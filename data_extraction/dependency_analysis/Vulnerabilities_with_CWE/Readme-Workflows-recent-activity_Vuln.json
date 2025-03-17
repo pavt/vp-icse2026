@@ -1,0 +1,82 @@
+{
+    "axios:1.4.0": {
+        "name": "axios",
+        "version": "1.4.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8hc4-vh64-cxmj",
+                "severity": "High",
+                "description": "Server-Side Request Forgery in axios",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            },
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "Medium",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "cross-spawn:6.0.5": {
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "follow-redirects:1.15.1": {
+        "name": "follow-redirects",
+        "version": "1.15.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jchw-25xp-jwwc",
+                "severity": "Medium",
+                "description": "Follow Redirects improperly handles URLs in the url.parse() function",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-cxjh-pqwp-8mfp",
+                "severity": "Medium",
+                "description": "follow-redirects' Proxy-Authorization header kept across hosts",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

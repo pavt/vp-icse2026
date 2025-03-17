@@ -1,0 +1,50 @@
+{
+    "cross-spawn:4.0.2": {
+        "name": "cross-spawn",
+        "version": "4.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "ws:8.5.0": {
+        "name": "ws",
+        "version": "8.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "High",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "NULL Pointer Dereference"
+            }
+        ]
+    },
+    "zod:3.14.4": {
+        "name": "zod",
+        "version": "3.14.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m95q-7qp3-xv42",
+                "severity": "Medium",
+                "description": "Zod denial of service vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

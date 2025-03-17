@@ -1,0 +1,58 @@
+{
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "Medium",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "Medium",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "undici:5.28.3": {
+        "name": "undici",
+        "version": "5.28.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "axios:1.6.7": {
+        "name": "axios",
+        "version": "1.6.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8hc4-vh64-cxmj",
+                "severity": "High",
+                "description": "Server-Side Request Forgery in axios",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "follow-redirects:1.15.5": {
+        "name": "follow-redirects",
+        "version": "1.15.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cxjh-pqwp-8mfp",
+                "severity": "Medium",
+                "description": "follow-redirects' Proxy-Authorization header kept across hosts",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

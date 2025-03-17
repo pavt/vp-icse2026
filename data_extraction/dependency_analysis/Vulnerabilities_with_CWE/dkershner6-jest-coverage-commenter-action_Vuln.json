@@ -1,0 +1,82 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "micromatch:4.0.5": {
+        "name": "micromatch",
+        "version": "4.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "undici:5.28.2": {
+        "name": "undici",
+        "version": "5.28.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "Low",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "Low",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "Low",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

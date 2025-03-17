@@ -1,0 +1,50 @@
+{
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "micromatch:4.0.7": {
+        "name": "micromatch",
+        "version": "4.0.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "rollup:4.19.2": {
+        "name": "rollup",
+        "version": "4.19.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gcx4-mw62-g8wm",
+                "severity": "High",
+                "description": "DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS",
+                "links": [],
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    }
+}

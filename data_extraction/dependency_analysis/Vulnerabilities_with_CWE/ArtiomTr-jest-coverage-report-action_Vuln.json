@@ -1,0 +1,188 @@
+{
+    "@babel/traverse:7.14.5": {
+        "name": "@babel/traverse",
+        "version": "7.14.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "jest-coverage-report-action:1.0.0": {
+        "name": "jest-coverage-report-action",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wjvq-8r89-7mxv",
+                "severity": "Critical",
+                "description": "Malware in jest-coverage-report-action",
+                "links": [],
+                "CWE_ID": "CWE-506",
+                "CWE_DESCRIPTION": "Embedded Malicious Code"
+            }
+        ]
+    },
+    "json5:2.2.0": {
+        "name": "json5",
+        "version": "2.2.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9c47-m6qq-7p4h",
+                "severity": "High",
+                "description": "Prototype Pollution in JSON5 via Parse Method",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "micromatch:4.0.4": {
+        "name": "micromatch",
+        "version": "4.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "nanoid:3.3.1": {
+        "name": "nanoid",
+        "version": "3.3.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mwcw-c2x4-8c55",
+                "severity": "Medium",
+                "description": "Predictable results in nanoid generation when given non-integer values",
+                "links": [],
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "next:12.1.0": {
+        "name": "next",
+        "version": "12.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7gfc-8cq8-jh5f",
+                "severity": "High",
+                "description": "Next.js authorization bypass vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-285",
+                "CWE_DESCRIPTION": "Improper Authorization"
+            },
+            {
+                "id": "GHSA-g77x-44xx-532m",
+                "severity": "Medium",
+                "description": "Denial of Service condition in Next.js image optimization",
+                "links": [],
+                "CWE_ID": "CWE-674",
+                "CWE_DESCRIPTION": "Uncontrolled Recursion"
+            },
+            {
+                "id": "GHSA-c59h-r6p8-q9wc",
+                "severity": "Low",
+                "description": "Next.js missing cache-control header may lead to CDN caching empty reply",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "postcss:8.4.5": {
+        "name": "postcss",
+        "version": "8.4.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "Medium",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:7.3.5": {
+        "name": "semver",
+        "version": "7.3.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "github-action-benchmark:0.0.0": {
+        "name": "github-action-benchmark",
+        "version": "0.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hx6g-q666-94ff",
+                "severity": "Critical",
+                "description": "Malware in github-action-benchmark",
+                "links": [],
+                "CWE_ID": "CWE-506",
+                "CWE_DESCRIPTION": "Embedded Malicious Code"
+            }
+        ]
+    },
+    "py:1.10.0": {
+        "name": "py",
+        "version": "1.10.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w596-4wvx-j9j6",
+                "severity": "High",
+                "description": "ReDoS in py library when used with subversion ",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "zipp:0.6.0": {
+        "name": "zipp",
+        "version": "0.6.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jfmj-5v4g-7637",
+                "severity": "Medium",
+                "description": "zipp Denial of Service vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

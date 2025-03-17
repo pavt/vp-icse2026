@@ -1,0 +1,122 @@
+{
+    "@actions/core:1.3.0": {
+        "name": "@actions/core",
+        "version": "1.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7r3h-m5j6-3q42",
+                "severity": "Medium",
+                "description": "@actions/core has Delimiter Injection Vulnerability in exportVariable",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "ajv:6.10.2": {
+        "name": "ajv",
+        "version": "6.10.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v88g-cgmw-v5xw",
+                "severity": "Medium",
+                "description": "Prototype Pollution in Ajv",
+                "links": [],
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            }
+        ]
+    },
+    "json-schema:0.2.3": {
+        "name": "json-schema",
+        "version": "0.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-896r-f27r-55mw",
+                "severity": "Critical",
+                "description": "json-schema is vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            }
+        ]
+    },
+    "jszip:3.6.0": {
+        "name": "jszip",
+        "version": "3.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jg8v-48h5-wgxg",
+                "severity": "Medium",
+                "description": "jszip Vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            },
+            {
+                "id": "GHSA-36fh-84j7-cv5h",
+                "severity": "Medium",
+                "description": "JSZip contains Path Traversal via loadAsync",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "qs:6.5.2": {
+        "name": "qs",
+        "version": "6.5.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "High",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "Medium",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "Medium",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "@actions/core:1.2.6": {
+        "name": "@actions/core",
+        "version": "1.2.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7r3h-m5j6-3q42",
+                "severity": "Medium",
+                "description": "@actions/core has Delimiter Injection Vulnerability in exportVariable",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

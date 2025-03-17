@@ -1,0 +1,132 @@
+{
+    "axios:0.21.4": {
+        "name": "axios",
+        "version": "0.21.4",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "Medium",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "fast-xml-parser:3.19.0": {
+        "name": "fast-xml-parser",
+        "version": "3.19.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x3cc-x39p-42qx",
+                "severity": "Medium",
+                "description": "fast-xml-parser vulnerable to Prototype Pollution through tag or attribute name",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "follow-redirects:1.14.8": {
+        "name": "follow-redirects",
+        "version": "1.14.8",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jchw-25xp-jwwc",
+                "severity": "Medium",
+                "description": "Follow Redirects improperly handles URLs in the url.parse() function",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-cxjh-pqwp-8mfp",
+                "severity": "Medium",
+                "description": "follow-redirects' Proxy-Authorization header kept across hosts",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "nanoid:3.3.2": {
+        "name": "nanoid",
+        "version": "3.3.2",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mwcw-c2x4-8c55",
+                "severity": "Medium",
+                "description": "Predictable results in nanoid generation when given non-integer values",
+                "links": [],
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "protobufjs:6.11.3": {
+        "name": "protobufjs",
+        "version": "6.11.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-h755-8qp9-cq85",
+                "severity": "Critical",
+                "description": "protobufjs Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:7.3.8": {
+        "name": "semver",
+        "version": "7.3.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

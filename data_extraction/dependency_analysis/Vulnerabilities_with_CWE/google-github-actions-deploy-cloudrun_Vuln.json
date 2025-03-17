@@ -1,0 +1,18 @@
+{
+    "path-to-regexp:0.1.10": {
+        "name": "path-to-regexp",
+        "version": "0.1.10",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rhx6-c78j-4q9w",
+                "severity": "Medium",
+                "description": "Unpatched `path-to-regexp` ReDoS in 0.1.x",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

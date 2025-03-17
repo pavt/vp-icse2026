@@ -1,0 +1,330 @@
+{
+    "@babel/traverse:7.21.4": {
+        "name": "@babel/traverse",
+        "version": "7.21.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "babel-traverse:6.26.0": {
+        "name": "babel-traverse",
+        "version": "6.26.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "got:8.3.2": {
+        "name": "got",
+        "version": "8.3.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "html-minifier:4.0.0": {
+        "name": "html-minifier",
+        "version": "4.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfq8-rq6v-vf5m",
+                "severity": "High",
+                "description": "kangax html-minifier REDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "http-cache-semantics:3.8.1": {
+        "name": "http-cache-semantics",
+        "version": "3.8.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "High",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "jpeg-js:0.3.7": {
+        "name": "jpeg-js",
+        "version": "0.3.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvf7-4v9q-58w6",
+                "severity": "High",
+                "description": "Infinite loop in jpeg-js",
+                "links": [],
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-w7q9-p3jq-fmhm",
+                "severity": "Medium",
+                "description": "Uncontrolled resource consumption in jpeg-js",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "json5:0.5.1": {
+        "name": "json5",
+        "version": "0.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9c47-m6qq-7p4h",
+                "severity": "High",
+                "description": "Prototype Pollution in JSON5 via Parse Method",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "nanoid:3.3.6": {
+        "name": "nanoid",
+        "version": "3.3.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mwcw-c2x4-8c55",
+                "severity": "Medium",
+                "description": "Predictable results in nanoid generation when given non-integer values",
+                "links": [],
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "phin:2.9.3": {
+        "name": "phin",
+        "version": "2.9.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x565-32qp-m3vf",
+                "severity": "Medium",
+                "description": "phin may include sensitive headers in subsequent requests after redirect",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "postcss:8.4.21": {
+        "name": "postcss",
+        "version": "8.4.21",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "Medium",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "Medium",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:7.3.8": {
+        "name": "semver",
+        "version": "7.3.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "terser:4.8.0": {
+        "name": "terser",
+        "version": "4.8.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4wf5-vphf-c2xc",
+                "severity": "High",
+                "description": "Terser insecure use of regular expressions leads to ReDoS",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "Medium",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "xml2js:0.4.23": {
+        "name": "xml2js",
+        "version": "0.4.23",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-776f-qx25-q3cc",
+                "severity": "Medium",
+                "description": "xml2js is vulnerable to prototype pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    }
+}

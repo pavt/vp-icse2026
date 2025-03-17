@@ -1,0 +1,293 @@
+repo_owner,repo_name,Total Vulnerabilities (High or Critical),Category
+ashutoshvarma,action-cmake-build,0,Testing
+DataDog,synthetics-ci-github-action,2,Testing
+game-ci,unity-builder,6,Game CI
+davelosert,vitest-coverage-report-action,0,Testing
+getong,mariadb-action,15,Container CI
+MorrisonCole,pr-lint-action,10,Utilities
+descope,assume-aws-role-from-gcp-action,4,Security
+wenkokke,setup-agda,1,Utilities
+marocchino,validate-dependabot,1,Dependency Management
+wangyucode,sftp-upload-action,0,Deployment
+1Password,load-secrets-action,1,Security
+Cyberbeni,install-swift-tool,1,Utilities
+shadowmoose,GHA-LoC-Badge,1,Utilities
+TryGhost,action-deploy-theme,0,Deployment
+microsoft,RichCodeNavIndexer,25,Code Review
+nowsecure,nowsecure-action,4,Security
+workflow,nix-shell-action,0,Dependency Management
+google-github-actions,deploy-cloudrun,0,Deployment
+JorelAli,setup-elm,0,Continuous Integration
+crazyurus,miniprogram-action,13,Deployment
+wdzeng,edge-addon,2,Publishing
+step-security,wait-for-secrets,0,Security
+Azure,mysql,3,Deployment
+Zqzqsb,MultiSourceSnake,9,Utilities
+jitterbit,get-changed-files,22,Utilities
+8398a7,action-slack,1,Chat
+einaregilsson,beanstalk-deploy,0,Deployment
+github,combine-prs,0,Utilities
+de-vri-es,setup-git-credentials,0,Security
+moonrepo,setup-rust,2,Utilities
+stepci,stepci,2,Testing
+BetaHuhn,deploy-to-vercel-action,7,Deployment
+JamesIves,fetch-api-data-action,1,Utilities
+turtlequeue,setup-babashka,5,Container CI
+sherlo-io,sherlo,16,Testing
+test-summary,action,0,Testing
+stoat-dev,stoat-action,9,Utilities
+Mozilla-Actions,sccache-action,0,Dependency Management
+ScribeMD,docker-cache,4,Utilities
+tinovyatkin,action-php-codesniffer,1,Code Review
+pixee,upload-tool-results-action,1,Security
+benchmark-action,github-action-benchmark,2,Code Quality
+fabasoad,twilio-voice-call-action,1,Utilities
+Anmol-Baranwal,DevtoGitHub,0,Utilities
+Azure,cli,0,Deployment
+Azure,k8s-deploy,0,Deployment
+ReactiveCircus,android-emulator-runner,0,Testing
+DevCycleHQ,feature-flag-pr-insights-action,1,Code Review
+tubone24,update_release,4,Deployment
+eregon,publish-release,1,Deployment
+antongolub,action-setup-bun,1,Continuous Integration
+Chocobo1,setup-ccache-action,0,Utilities
+dessant,lock-threads,0,Project Management
+auguwu,clippy-action,0,Utilities
+gautamkrishnar,keepalive-workflow,1,Utilities
+KyleMayes,install-llvm-action,0,Dependency Management
+arduino,arduino-lint-action,1,Testing
+leanix,nx-affected-dependencies-action,0,Deployment
+Legion2,swagger-ui-action,0,Utilities
+MishaKav,pytest-coverage-comment,0,Testing
+philips-software,sonar-scanner-action,2,Code Quality
+vlaurin,action-ghcr-prune,0,Utilities
+varunsridharan,action-github-workflow-sync,0,Utilities
+abeyuya,actions-mention-to-slack,0,Chat
+kitabisa,docker-slim-action,0,Utilities
+ashutoshvarma,setup-ninja,2,Utilities
+CycloneDX,gh-node-module-generatebom,0,Security
+peter-evans,find-comment,0,Utilities
+Reggionick,s3-deploy,0,Deployment
+softprops,setup-aws-copilot,1,Deployment
+bazelbuild,setup-bazelisk,0,Testing
+github,branch-deploy,0,Deployment
+grassedge,git-pr-release-action,24,Deployment
+h5bp,server-configs-test,1,Testing
+blombard,move-to-next-iteration,0,Utilities
+10up,action-repo-automator,0,Code Review
+exercism,pr-commenter-action,0,Code Review
+Rebilly,lexi,0,Code Review
+manusa,actions-setup-minikube,1,Container CI
+the-actions-org,workflow-dispatch,2,Utilities
+batista,lint-filenames,0,Utilities
+kiegroup,github-action-build-chain,1,Utilities
+tibdex,backport,3,Utilities
+expo,expo-github-action,0,Deployment
+loopwerk,tag-changelog,0,Deployment
+endorlabs,github-action,2,Security
+lukka,run-vcpkg,2,Dependency Management
+crazy-max,ghaction-import-gpg,3,Security
+test-room-7,action-update-file,1,Utilities
+abronin,ecr-retag-action,5,Utilities
+fpicalausa,remove-stale-branches,0,Utilities
+YOCKOW,Action-setup-swift,0,Utilities
+lhotari,action-upterm,0,Utilities
+TinkurLab,issue-labeler-action,0,Project Management
+bobheadxi,deployments,0,Deployment
+LuisAlejandro,movie-box,2,Utilities
+steffen-karlsson,stalesweeper,0,Support
+danielpalme,ReportGenerator-GitHub-Action,0,Testing
+dromara,issues-translate-action,13,Localization
+szenius,notion-burndown,2,Project Management
+Azure,k8s-lint,0,Code Review
+layer5labs,kanvas-snapshot,7,Code Review
+paambaati,codeclimate-action,1,Code Review
+vio,bundle-stats-action,4,Utilities
+nix-community,cache-nix-action,0,Continuous Integration
+toshimaru,auto-author-assign,0,Project Management
+atlassian,gajira-create,10,Project Management
+aGallea,tests-coverage-report,0,Code Review
+stainless-api,upload-openapi-spec-action,1,Utilities
+lukka,run-cmake,1,Dependency Management
+dlemstra,code-sign-action,0,Security
+google-github-actions,get-gke-credentials,0,Deployment
+lwojcik,github-action-feed-to-social-media,0,Utilities
+JulienKode,team-labeler-action,1,Code Review
+mainmatter,ember-asset-size-action,6,Deployment
+matlab-actions,setup-matlab,0,Utilities
+aws-actions,amazon-ecs-render-task-definition,0,Deployment
+gabrielfalcao,pyenv-action,0,Dependency Management
+superman66,wakatime-sync,4,Project Management
+sysdiglabs,scan-action,0,Security
+parkerbxyz,suggest-changes,0,Code Review
+darenm,Setup-VSTest,1,Testing
+CircleCI-Public,trigger-circleci-pipeline-action,0,Deployment
+dkershner6,aws-ssm-getparameters-action,2,Deployment
+xt0rted,slash-command-action,0,Chat
+docker,setup-buildx-action,1,Container CI
+Satak,webrequest-action,1,Utilities
+dynatrace-oss,dynatrace-github-action,0,Utilities
+Reedyuk,NPM-Version,0,Publishing
+xt0rted,dotnet-format,3,Code Quality
+devops-actions,json-to-file,1,Utilities
+masci,datadog,0,Monitoring
+tmcw,notfoundbot,24,Monitoring
+aslafy-z,conventional-pr-title-action,0,Code Review
+dataaxiom,ghcr-cleanup-action,0,Container CI
+Wandalen,wretry.action,0,Deployment
+JasonEtco,create-an-issue,2,Project Management
+errata-ai,vale-action,2,Testing
+xeol-io,bumpgen,6,Utilities
+mheap,automatic-approve-action,1,Testing
+xmake-io,github-action-setup-xmake,2,Utilities
+chf007,action-wechat-work,0,Chat
+jontze,action-mdbook,1,Deployment
+SvanBoxel,zaproxy-to-ghas,2,Testing
+synopsys-sig,detect-action,2,Security
+kanga333,variable-mapper,0,Utilities
+machulav,ec2-github-runner,0,Utilities
+ecomplus,cloud-commerce,0,Deployment
+peaceiris,actions-suggest-related-links,4,Utilities
+mattzcarey,code-review-gpt,6,Code Review
+yuzutech,annotations-action,1,Code Review
+benc-uk,workflow-dispatch,0,Deployment
+Jtalk,url-health-check-action,0,Testing
+ExpediaGroup,github-helpers,0,Utilities
+forcedotcom,run-code-analyzer,3,Security
+shallwefootball,upload-s3-action,0,Continuous Integration
+borchero,terraform-plan-comment,2,Deployment
+volta-cli,action,0,Utilities
+peckjon,reject-pr-approval-from-committer,0,Code Review
+wechuli,allcheckspassed,0,Security
+vimtor,action-zip,14,Utilities
+Mastersam07,firebase-app-distribution-action,1,Publishing
+worksome,jira-branch-name-validator-action,0,Code Quality
+google-github-actions,upload-cloud-storage,0,Deployment
+HardNorth,github-version-generate,0,Publishing
+OctopusDeploy,install-octopus-cli-action,0,Deployment
+apexskier,github-release-commenter,18,Utilities
+yanamura,git-flow-merge-action,3,Utilities
+aws-actions,aws-secretsmanager-get-secrets,0,Security
+gagoar,codeowners-generator,1,Utilities
+mlg87,pr-reviewer-slack-notify-action,3,Code Review
+nicklegan,github-org-repo-metrics-action,2,Utilities
+yc-actions,yc-sls-container-deploy,0,Deployment
+SethCohen,github-releases-to-discord,0,Deployment
+github,accessibility-alt-text-bot,1,Utilities
+dawidd6,action-ansible-playbook,0,Deployment
+managedcode,MAUIAppVersion,0,Deployment
+shonansurvivors,actions-s3-cache,1,Deployment
+editorconfig-checker,action-editorconfig-checker,1,Utilities
+dkershner6,jest-coverage-commenter-action,2,Code Review
+atalent-labs,404-links,0,Code Quality
+chrisdickinson,setup-yq,1,Utilities
+julia-actions,install-juliaup,0,Continuous Integration
+MarkusJx,install-boost,0,Continuous Integration
+Bhacaz,docs-as-code-confluence,0,Utilities
+martincostello,update-dotnet-sdk,0,Utilities
+mikesprague,teams-incoming-webhook-action,0,Utilities
+ookami-kb,gh-pr-size-watcher,1,Code Review
+DavideViolante,pr-reviews-reminder-action,0,Code Review
+nick-fields,retry,0,Utilities
+ksivamuthu,aws-copilot-github-action,0,Deployment
+TimDaub,hetzner-cloud-deploy-server-action,1,Deployment
+zentered,vercel-preview-url,0,Utilities
+fjogeleit,yaml-update-action,0,Utilities
+autero1,action-terragrunt,0,Deployment
+teatimeguest,setup-texlive-action,0,Utilities
+Balastrong,chess-stats-action,0,Utilities
+Readme-Workflows,recent-activity,3,Utilities
+ExpediaGroup,spinnaker-pipeline-trigger,8,Project Management
+yuichielectric,dive-action,0,Container CI
+DependencyTrack,gh-upload-sbom,0,Security
+we-cli,coverage-badge-action,0,Testing
+julia-actions,RegisterAction,2,Publishing
+docker-practice,actions-setup-docker,0,Container CI
+jpb06,jest-badges-action,3,Testing
+ArtiomTr,jest-coverage-report-action,7,Monitoring
+technote-space,create-pr-action,16,Utilities
+ardalanamini,auto-changelog,1,Utilities
+wktk,github-project-connect-action,2,Utilities
+crazy-max,ghaction-setup-containerd,4,Utilities
+MeilCli,npm-update-check-action,0,Utilities
+oprypin,find-latest-tag,0,Dependency Management
+pascalgn,automerge-action,2,Code Review
+frictionlessdata,frictionless-ci,0,Code Quality
+GreenTF,upload-thunderstore-package,0,Publishing
+jimmygchen,runner-fallback-action,0,Utilities
+abel0b,setup-premake,1,Continuous Integration
+JarvusInnovations,background-action,1,Utilities
+GrantBirki,git-diff-action,0,Utilities
+JasonEtco,build-and-tag-action,5,Publishing
+kiegroup,git-backporting,0,Continuous Integration
+mrrobotdotapp,classic-discord-webhook,2,Chat
+codfish,semantic-release-action,4,Deployment
+dineshsonachalam,markdown-autodocs,0,Deployment
+shogo82148,actions-setup-redis,0,Testing
+balena-io,deploy-to-balena-action,0,Container CI
+AlexSim93,pull-request-analytics-action,0,Monitoring
+JetBrains,qodana-action,1,Security
+SimonScholz,google-chat-action,0,Chat
+peaceiris,actions-mdbook,0,Deployment
+DeLaGuardo,setup-clojure,0,Utilities
+HatsuneMiku3939,direnv-action,0,Testing
+mbogh,test-ssl-action,0,Security
+TheMrMilchmann,setup-msvc-dev,0,Utilities
+squarecloudofc,github-action,0,Deployment
+Tyrrrz,action-http-request,0,Utilities
+davidB,rust-cargo-make,0,Deployment
+vn7n24fzkq,github-profile-summary-cards,1,Utilities
+joao-zanutto,get-selected,0,Utilities
+mikepenz,action-junit-report,0,Testing
+Apple-Actions,download-provisioning-profiles,4,Mobile
+shimataro,ssh-key-action,0,Deployment
+biomejs,setup-biome,9,Utilities
+corymhall,cdk-diff-action,0,Continuous Integration
+brown-ccv,alex-recommends,12,Code Review
+mlugg,setup-zig,1,Utilities
+opsless,ms-teams-github-actions,0,Continuous Integration
+TinkurLab,monorepo-pr-labeler-action,0,Code Review
+umani,changed-files,3,Utilities
+laytan,setup-odin,1,Utilities
+42Crunch,api-security-audit-action,0,Testing
+github,command,0,Utilities
+arduino,setup-arduino-cli,0,Utilities
+cloudflare,pages-action,1,Deployment
+LouisBrunner,checks-action,0,API Management
+kamilkisiela,bob,9,Continuous Integration
+di-sukharev,opencommit,1,Utilities
+jwgmeligmeyling,pmd-github-action,3,Security
+tj-actions,glob,0,Continuous Integration
+shogo82148,actions-upload-release-asset,0,Publishing
+swinton,screenshot-website,3,Code Quality
+DevCycleHQ,feature-flag-code-usage-action,1,Code Review
+thomaseizinger,keep-a-changelog-new-release,12,Publishing
+dotnet,nbgv,2,Project Management
+JamesIves,github-pages-deploy-action,1,Deployment
+oracle-actions,run-oci-cli-command,0,Deployment
+lindluni,actions-variable-groups,0,Utilities
+SpectralOps,spectral-github-action,1,Security
+nelonoel,branch-name,0,Deployment
+necojackarc,auto-request-review,0,Code Review
+usimd,pi-gen-action,0,Publishing
+dorny,test-reporter,1,Testing
+yogeshpaliyal,upload-indus-appstore,2,Deployment
+Azure,pipelines,0,Deployment
+Azure,k8s-set-context,2,Deployment
+DopplerHQ,cli-action,0,Security
+aquiladev,ipfs-action,3,Deployment
+aws-actions,amazon-ecr-login,0,Deployment
+dhall-lang,setup-dhall,0,Dependency Management
+kanadgupta,glitch-sync,0,Deployment
+astral-sh,setup-uv,0,Utilities
+fwilhe2,setup-kotlin,1,Continuous Integration
+sinedied,publish-devto,1,Deployment
+kevin-david,zipalign-sign-android-release,0,Publishing
+xavierLowmiller,xcodegen-action,0,Mobile CI
+mattermost,action-mattermost-notify,0,Utilities
+moropo-com,action-trigger-test-run,0,Testing
+shioyang,check-pr-labels-on-push-action,0,Project Management
+crazy-max,ghaction-upx,2,Deployment
+dailydotdev,action-devcard,1,Utilities
+mheap,require-checklist-action,0,Code Review
+sibiraj-s,action-eslint,0,Code Quality

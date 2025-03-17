@@ -1,0 +1,20 @@
+{
+    "node-fetch:2.6.1": {
+        "name": "node-fetch",
+        "version": "2.6.1",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r683-j2x4-v87g",
+                "severity": "High",
+                "description": "node-fetch forwards secure headers to untrusted sites",
+                "links": [],
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    }
+}

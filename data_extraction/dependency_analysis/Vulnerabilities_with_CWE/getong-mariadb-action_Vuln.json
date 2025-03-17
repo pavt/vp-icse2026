@@ -1,0 +1,362 @@
+{
+    "acorn:7.1.0": {
+        "name": "acorn",
+        "version": "7.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6chw-6frg-f759",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service in Acorn",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "ajv:6.10.2": {
+        "name": "ajv",
+        "version": "6.10.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v88g-cgmw-v5xw",
+                "severity": "Medium",
+                "description": "Prototype Pollution in Ajv",
+                "links": [],
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            }
+        ]
+    },
+    "ansi-regex:3.0.0": {
+        "name": "ansi-regex",
+        "version": "3.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "ansi-regex:4.1.0": {
+        "name": "ansi-regex",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "cross-spawn:6.0.5": {
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "debug:3.2.6": {
+        "name": "debug",
+        "version": "3.2.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gxpj-cx7g-858c",
+                "severity": "Low",
+                "description": "Regular Expression Denial of Service in debug",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "debug:4.1.1": {
+        "name": "debug",
+        "version": "4.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gxpj-cx7g-858c",
+                "severity": "Low",
+                "description": "Regular Expression Denial of Service in debug",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "flat:4.1.0": {
+        "name": "flat",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2j2x-2gpw-g8fm",
+                "severity": "Critical",
+                "description": "flat vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "get-func-name:2.0.0": {
+        "name": "get-func-name",
+        "version": "2.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4q6p-r6v2-jvc5",
+                "severity": "High",
+                "description": "Chaijs/get-func-name vulnerable to ReDoS",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "glob-parent:5.1.0": {
+        "name": "glob-parent",
+        "version": "5.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-ww39-953v-wcq6",
+                "severity": "High",
+                "description": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "hosted-git-info:2.8.5": {
+        "name": "hosted-git-info",
+        "version": "2.8.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-43f8-2h32-f4cj",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service in hosted-git-info",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "lodash:4.17.15": {
+        "name": "lodash",
+        "version": "4.17.15",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "High",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "High",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimist:0.0.8": {
+        "name": "minimist",
+        "version": "0.0.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "Critical",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            },
+            {
+                "id": "GHSA-vh95-rmgr-6w4m",
+                "severity": "Medium",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "mysql:2.17.1": {
+        "name": "mysql",
+        "version": "2.17.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f982-mxwc-3mrx",
+                "severity": "Medium",
+                "description": "MySQL for Node.js Unsafe Options",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "path-parse:1.0.6": {
+        "name": "path-parse",
+        "version": "1.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "pathval:1.1.0": {
+        "name": "pathval",
+        "version": "1.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g6ww-v8xp-vmwg",
+                "severity": "High",
+                "description": "Prototype pollution in pathval",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "y18n:4.0.0": {
+        "name": "y18n",
+        "version": "4.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c4w7-xm78-47vh",
+                "severity": "High",
+                "description": "Prototype Pollution in y18n",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "yargs-parser:13.1.1": {
+        "name": "yargs-parser",
+        "version": "13.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p9pc-299p-vxgp",
+                "severity": "Medium",
+                "description": "yargs-parser Vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            }
+        ]
+    }
+}

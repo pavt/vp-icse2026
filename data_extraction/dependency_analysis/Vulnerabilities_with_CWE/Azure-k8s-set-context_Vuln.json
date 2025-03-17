@@ -1,0 +1,66 @@
+{
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "jsonpath-plus:9.0.0": {
+        "name": "jsonpath-plus",
+        "version": "9.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pppg-cpfq-h7wr",
+                "severity": "Critical",
+                "description": "JSONPath Plus Remote Code Execution (RCE) Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            }
+        ]
+    },
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "Medium",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "Medium",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    }
+}

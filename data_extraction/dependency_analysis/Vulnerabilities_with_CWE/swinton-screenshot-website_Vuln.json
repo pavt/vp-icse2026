@@ -1,0 +1,74 @@
+{
+    "debug:4.1.1": {
+        "name": "debug",
+        "version": "4.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gxpj-cx7g-858c",
+                "severity": "Low",
+                "description": "Regular Expression Denial of Service in debug",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "moment:2.24.0": {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wc69-rhjr-hc9g",
+                "severity": "High",
+                "description": "Moment.js vulnerable to Inefficient Regular Expression Complexity",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-8hfj-j24r-96c4",
+                "severity": "High",
+                "description": "Path Traversal: 'dir/../../filename' in moment.locale",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "tough-cookie:3.0.1": {
+        "name": "tough-cookie",
+        "version": "3.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "Medium",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "ws:8.5.0": {
+        "name": "ws",
+        "version": "8.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "High",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "NULL Pointer Dereference"
+            }
+        ]
+    }
+}

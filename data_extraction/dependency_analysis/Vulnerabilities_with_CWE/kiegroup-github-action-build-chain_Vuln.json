@@ -1,0 +1,66 @@
+{
+    "axios:0.27.2": {
+        "name": "axios",
+        "version": "0.27.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "Medium",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "axios:1.4.0": {
+        "name": "axios",
+        "version": "1.4.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8hc4-vh64-cxmj",
+                "severity": "High",
+                "description": "Server-Side Request Forgery in axios",
+                "links": [],
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            },
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "Medium",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "follow-redirects:1.15.2": {
+        "name": "follow-redirects",
+        "version": "1.15.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jchw-25xp-jwwc",
+                "severity": "Medium",
+                "description": "Follow Redirects improperly handles URLs in the url.parse() function",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-cxjh-pqwp-8mfp",
+                "severity": "Medium",
+                "description": "follow-redirects' Proxy-Authorization header kept across hosts",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "shelljs:0.3.0": {
+        "name": "shelljs",
+        "version": "0.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4rq4-32rv-6wp6",
+                "severity": "High",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "CWE_ID": "CWE-269",
+                "CWE_DESCRIPTION": "Improper Privilege Management"
+            },
+            {
+                "id": "GHSA-64g7-mvw6-v9qj",
+                "severity": "Medium",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "CWE_ID": "CWE-269",
+                "CWE_DESCRIPTION": "Improper Privilege Management"
+            }
+        ]
+    }
+}

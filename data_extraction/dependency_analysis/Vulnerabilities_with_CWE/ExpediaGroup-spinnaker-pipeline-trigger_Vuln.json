@@ -1,0 +1,162 @@
+{
+    "@babel/traverse:7.14.8": {
+        "name": "@babel/traverse",
+        "version": "7.14.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "@babel/traverse:7.16.7": {
+        "name": "@babel/traverse",
+        "version": "7.16.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "@babel/traverse:7.17.3": {
+        "name": "@babel/traverse",
+        "version": "7.17.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "Critical",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "@blakeembrey/template:1.0.0": {
+        "name": "@blakeembrey/template",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q765-wm9j-66qj",
+                "severity": "Medium",
+                "description": "@blakeembrey/template vulnerable to code injection when attacker controls template input",
+                "links": [],
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            }
+        ]
+    },
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "High",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "micromatch:4.0.4": {
+        "name": "micromatch",
+        "version": "4.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-952p-6rrq-rcjv",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in micromatch",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "path-to-regexp:2.2.1": {
+        "name": "path-to-regexp",
+        "version": "2.2.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9wv6-86v2-598j",
+                "severity": "High",
+                "description": "path-to-regexp outputs backtracking regular expressions",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "ws:7.5.3": {
+        "name": "ws",
+        "version": "7.5.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "High",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "NULL Pointer Dereference"
+            }
+        ]
+    }
+}

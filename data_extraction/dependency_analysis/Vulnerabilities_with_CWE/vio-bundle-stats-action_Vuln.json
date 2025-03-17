@@ -1,0 +1,82 @@
+{
+    "decode-uri-component:0.2.0": {
+        "name": "decode-uri-component",
+        "version": "0.2.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w573-4hg7-7wgq",
+                "severity": "High",
+                "description": "decode-uri-component vulnerable to Denial of Service (DoS)",
+                "links": [],
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "got:11.8.3": {
+        "name": "got",
+        "version": "11.8.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "Medium",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "http-cache-semantics:4.1.0": {
+        "name": "http-cache-semantics",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "High",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

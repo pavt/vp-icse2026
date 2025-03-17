@@ -1,0 +1,18 @@
+# General dependencies
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+requests
+json
+
+# Git operations
+GitPython
+
+# Argument parsing
+argparse
+
+# JSON and CSV processing
+csv

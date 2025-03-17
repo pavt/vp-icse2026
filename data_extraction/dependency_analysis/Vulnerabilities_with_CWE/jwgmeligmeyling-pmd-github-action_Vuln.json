@@ -1,0 +1,82 @@
+{
+    "@actions/core:1.5.0": {
+        "name": "@actions/core",
+        "version": "1.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7r3h-m5j6-3q42",
+                "severity": "Medium",
+                "description": "@actions/core has Delimiter Injection Vulnerability in exportVariable",
+                "links": [],
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "fast-xml-parser:3.20.0": {
+        "name": "fast-xml-parser",
+        "version": "3.20.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x3cc-x39p-42qx",
+                "severity": "Medium",
+                "description": "fast-xml-parser vulnerable to Prototype Pollution through tag or attribute name",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimist:1.2.5": {
+        "name": "minimist",
+        "version": "1.2.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "Critical",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "node-fetch:2.6.2": {
+        "name": "node-fetch",
+        "version": "2.6.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r683-j2x4-v87g",
+                "severity": "High",
+                "description": "node-fetch forwards secure headers to untrusted sites",
+                "links": [],
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    }
+}

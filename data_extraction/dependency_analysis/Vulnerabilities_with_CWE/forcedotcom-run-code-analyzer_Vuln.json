@@ -1,0 +1,50 @@
+{
+    "@actions/artifact:2.1.0": {
+        "name": "@actions/artifact",
+        "version": "2.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6q32-hq47-5qq3",
+                "severity": "High",
+                "description": "@actions/artifact has an Arbitrary File Write via artifact extraction",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "path-to-regexp:6.2.1": {
+        "name": "path-to-regexp",
+        "version": "6.2.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9wv6-86v2-598j",
+                "severity": "High",
+                "description": "path-to-regexp outputs backtracking regular expressions",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "unzip-stream:0.3.1": {
+        "name": "unzip-stream",
+        "version": "0.3.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6jrj-vc65-c983",
+                "severity": "High",
+                "description": "unzip-stream allows Arbitrary File Write via artifact extraction",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    }
+}

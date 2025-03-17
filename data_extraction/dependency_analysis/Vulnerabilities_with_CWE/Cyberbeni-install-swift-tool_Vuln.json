@@ -1,0 +1,34 @@
+{
+    "@eslint/plugin-kit:0.2.0": {
+        "name": "@eslint/plugin-kit",
+        "version": "0.2.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7q7g-4xm8-89cq",
+                "severity": "Low",
+                "description": "Regular Expression Denial of Service (ReDoS) in @eslint/plugin-kit",
+                "links": [],
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            }
+        ]
+    },
+    "cross-spawn:7.0.3": {
+        "name": "cross-spawn",
+        "version": "7.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    }
+}

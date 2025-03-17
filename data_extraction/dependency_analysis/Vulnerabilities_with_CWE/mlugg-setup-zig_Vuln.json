@@ -1,0 +1,18 @@
+{
+    "fast-xml-parser:4.4.0": {
+        "name": "fast-xml-parser",
+        "version": "4.4.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mpg4-rc92-vx8v",
+                "severity": "High",
+                "description": "fast-xml-parser vulnerable to ReDOS at currency parsing",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

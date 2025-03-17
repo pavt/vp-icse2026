@@ -1,0 +1,84 @@
+{
+    "@grpc/grpc-js:1.9.9": {
+        "name": "@grpc/grpc-js",
+        "version": "1.9.9",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7v5v-9h63-cj86",
+                "severity": "Medium",
+                "description": "@grpc/grpc-js can allocate memory for incoming messages well above configured limits",
+                "links": [],
+                "CWE_ID": "CWE-789",
+                "CWE_DESCRIPTION": "Memory Allocation with Excessive Size Value"
+            }
+        ]
+    },
+    "axios:0.27.2": {
+        "name": "axios",
+        "version": "0.27.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "Medium",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "follow-redirects:1.15.5": {
+        "name": "follow-redirects",
+        "version": "1.15.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cxjh-pqwp-8mfp",
+                "severity": "Medium",
+                "description": "follow-redirects' Proxy-Authorization header kept across hosts",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "jsonpath-plus:5.1.0": {
+        "name": "jsonpath-plus",
+        "version": "5.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pppg-cpfq-h7wr",
+                "severity": "Critical",
+                "description": "JSONPath Plus Remote Code Execution (RCE) Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            }
+        ]
+    },
+    "jsonpath-plus:7.2.0": {
+        "name": "jsonpath-plus",
+        "version": "7.2.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pppg-cpfq-h7wr",
+                "severity": "Critical",
+                "description": "JSONPath Plus Remote Code Execution (RCE) Vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            }
+        ]
+    }
+}

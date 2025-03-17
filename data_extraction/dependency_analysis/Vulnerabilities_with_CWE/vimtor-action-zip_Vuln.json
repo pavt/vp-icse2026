@@ -1,0 +1,362 @@
+{
+    "@actions/http-client:1.0.6": {
+        "name": "@actions/http-client",
+        "version": "1.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9w6v-m7wp-jwg4",
+                "severity": "Medium",
+                "description": "Http request which redirect to another hostname do not strip authorization header in @actions/http-client",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "ajv:6.12.0": {
+        "name": "ajv",
+        "version": "6.12.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v88g-cgmw-v5xw",
+                "severity": "Medium",
+                "description": "Prototype Pollution in Ajv",
+                "links": [],
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            }
+        ]
+    },
+    "ansi-regex:4.1.0": {
+        "name": "ansi-regex",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "ansi-regex:5.0.0": {
+        "name": "ansi-regex",
+        "version": "5.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "High",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    },
+    "cross-spawn:6.0.5": {
+        "name": "cross-spawn",
+        "version": "6.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xgq-45jj-v275",
+                "severity": "High",
+                "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "debug:4.1.1": {
+        "name": "debug",
+        "version": "4.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gxpj-cx7g-858c",
+                "severity": "Low",
+                "description": "Regular Expression Denial of Service in debug",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "glob-parent:5.1.0": {
+        "name": "glob-parent",
+        "version": "5.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-ww39-953v-wcq6",
+                "severity": "High",
+                "description": "glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "hosted-git-info:2.8.8": {
+        "name": "hosted-git-info",
+        "version": "2.8.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-43f8-2h32-f4cj",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service in hosted-git-info",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "jszip:2.6.1": {
+        "name": "jszip",
+        "version": "2.6.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jg8v-48h5-wgxg",
+                "severity": "Medium",
+                "description": "jszip Vulnerable to Prototype Pollution",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            },
+            {
+                "id": "GHSA-36fh-84j7-cv5h",
+                "severity": "Medium",
+                "description": "JSZip contains Path Traversal via loadAsync",
+                "links": [],
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "lodash:4.17.19": {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "High",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "lodash.set:4.3.2": {
+        "name": "lodash.set",
+        "version": "4.3.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "High",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "High",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimist:1.2.5": {
+        "name": "minimist",
+        "version": "1.2.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "Critical",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "node-fetch:2.6.1": {
+        "name": "node-fetch",
+        "version": "2.6.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r683-j2x4-v87g",
+                "severity": "High",
+                "description": "node-fetch forwards secure headers to untrusted sites",
+                "links": [],
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "path-parse:1.0.6": {
+        "name": "path-parse",
+        "version": "1.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "Medium",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "High",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver-regex:2.0.0": {
+        "name": "semver-regex",
+        "version": "2.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-44c6-4v22-4mhx",
+                "severity": "High",
+                "description": "semver-regex Regular Expression Denial of Service (ReDOS)",
+                "links": [],
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4x5v-gmq8-25ch",
+                "severity": "Low",
+                "description": "Regular expression denial of service in semver-regex",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "shell-quote:1.7.2": {
+        "name": "shell-quote",
+        "version": "1.7.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g4rg-993r-mgx7",
+                "severity": "Critical",
+                "description": "Improper Neutralization of Special Elements used in a Command in Shell-quote",
+                "links": [],
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            }
+        ]
+    },
+    "word-wrap:1.2.3": {
+        "name": "word-wrap",
+        "version": "1.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8xg-fqg3-53r7",
+                "severity": "Medium",
+                "description": "word-wrap vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "zip-local:0.3.4": {
+        "name": "zip-local",
+        "version": "0.3.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wxj7-97fp-j53j",
+                "severity": "Critical",
+                "description": "Exposure of Resource to Wrong Sphere in Zip-Local",
+                "links": [],
+                "CWE_ID": "CWE-29",
+                "CWE_DESCRIPTION": "Path Traversal: '..filename'"
+            }
+        ]
+    }
+}
