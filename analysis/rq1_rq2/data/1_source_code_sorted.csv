@@ -1,0 +1,292 @@
+repo_owner,repo_name,Repository Full Name,File,Total Vulnerabilities,No Impact,Low,Medium,High,Critical,CWE Tags,Category
+10up,action-repo-automator,10up/action-repo-automator,10up-action-repo-automator-results.json,2,0,0,0,2,0,['cwe-020'],Code Review
+1Password,load-secrets-action,1Password/load-secrets-action,1Password-load-secrets-action-results.json,2,0,0,2,0,0,"['cwe-020', 'cwe-078', 'cwe-088']",Security
+42Crunch,api-security-audit-action,42Crunch/api-security-audit-action,42Crunch-api-security-audit-action-results.json,0,0,0,0,0,0,[],Testing
+8398a7,action-slack,8398a7/action-slack,8398a7-action-slack-results.json,0,0,0,0,0,0,[],Chat
+AlexSim93,pull-request-analytics-action,AlexSim93/pull-request-analytics-action,AlexSim93-pull-request-analytics-action-results.json,2,0,0,1,1,0,['cwe-020'],Monitoring
+Anmol-Baranwal,DevtoGitHub,Anmol-Baranwal/DevtoGitHub,Anmol-Baranwal-DevtoGitHub-results.json,1,0,0,1,0,0,['cwe-020'],Utilities
+Apple-Actions,download-provisioning-profiles,Apple-Actions/download-provisioning-profiles,Apple-Actions-download-provisioning-profiles-results.json,0,0,0,0,0,0,[],Mobile
+ArtiomTr,jest-coverage-report-action,ArtiomTr/jest-coverage-report-action,ArtiomTr-jest-coverage-report-action-results.json,9,0,0,0,9,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-367']",Monitoring
+Azure,cli,Azure/cli,Azure-cli-results.json,1,0,0,0,1,0,"['cwe-377', 'cwe-378']",Deployment
+Azure,k8s-deploy,Azure/k8s-deploy,Azure-k8s-deploy-results.json,6,0,0,0,6,0,"['cwe-020', 'cwe-377', 'cwe-378']",Deployment
+Azure,k8s-lint,Azure/k8s-lint,Azure-k8s-lint-results.json,0,0,0,0,0,0,[],Code Review
+Azure,k8s-set-context,Azure/k8s-set-context,Azure-k8s-set-context-results.json,0,0,0,0,0,0,[],Deployment
+Azure,mysql,Azure/mysql,Azure-mysql-results.json,2,0,0,0,2,0,"['cwe-1333', 'cwe-400', 'cwe-730']",Deployment
+Azure,pipelines,Azure/pipelines,Azure-pipelines-results.json,1,0,0,0,1,0,"['cwe-020', 'cwe-080', 'cwe-116']",Deployment
+Balastrong,chess-stats-action,Balastrong/chess-stats-action,Balastrong-chess-stats-action-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-434', 'cwe-912']",Utilities
+BetaHuhn,deploy-to-vercel-action,BetaHuhn/deploy-to-vercel-action,BetaHuhn-deploy-to-vercel-action-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+Bhacaz,docs-as-code-confluence,Bhacaz/docs-as-code-confluence,Bhacaz-docs-as-code-confluence-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Utilities
+Chocobo1,setup-ccache-action,Chocobo1/setup-ccache-action,Chocobo1-setup-ccache-action-results.json,13,0,0,2,11,0,"['cwe-020', 'cwe-078', 'cwe-080', 'cwe-088', 'cwe-116', 'cwe-400', 'cwe-730']",Utilities
+CircleCI-Public,trigger-circleci-pipeline-action,CircleCI-Public/trigger-circleci-pipeline-action,CircleCI-Public-trigger-circleci-pipeline-action-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+Cyberbeni,install-swift-tool,Cyberbeni/install-swift-tool,Cyberbeni-install-swift-tool-results.json,2,0,0,0,2,0,"['cwe-400', 'cwe-730']",Utilities
+CycloneDX,gh-node-module-generatebom,CycloneDX/gh-node-module-generatebom,CycloneDX-gh-node-module-generatebom-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Security
+DataDog,synthetics-ci-github-action,DataDog/synthetics-ci-github-action,DataDog-synthetics-ci-github-action-results.json,7,0,0,2,5,0,"['cwe-020', 'cwe-080', 'cwe-116']",Testing
+DavideViolante,pr-reviews-reminder-action,DavideViolante/pr-reviews-reminder-action,DavideViolante-pr-reviews-reminder-action-results.json,0,0,0,0,0,0,[],Code Review
+DeLaGuardo,setup-clojure,DeLaGuardo/setup-clojure,DeLaGuardo-setup-clojure-results.json,32,0,0,2,5,25,"['cwe-020', 'cwe-078', 'cwe-088', 'cwe-259', 'cwe-321', 'cwe-338', 'cwe-400', 'cwe-730', 'cwe-798']",Utilities
+DependencyTrack,gh-upload-sbom,DependencyTrack/gh-upload-sbom,DependencyTrack-gh-upload-sbom-results.json,1,0,0,1,0,0,['cwe-200'],Security
+DevCycleHQ,feature-flag-code-usage-action,DevCycleHQ/feature-flag-code-usage-action,DevCycleHQ-feature-flag-code-usage-action-results.json,2,0,0,0,1,1,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Code Review
+DevCycleHQ,feature-flag-pr-insights-action,DevCycleHQ/feature-flag-pr-insights-action,DevCycleHQ-feature-flag-pr-insights-action-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+DopplerHQ,cli-action,DopplerHQ/cli-action,DopplerHQ-cli-action-results.json,0,0,0,0,0,0,[],Security
+ExpediaGroup,github-helpers,ExpediaGroup/github-helpers,ExpediaGroup-github-helpers-results.json,11,0,0,4,7,0,"['cwe-020', 'cwe-080', 'cwe-116']",Utilities
+ExpediaGroup,spinnaker-pipeline-trigger,ExpediaGroup/spinnaker-pipeline-trigger,ExpediaGroup-spinnaker-pipeline-trigger-results.json,1,0,0,0,1,0,['cwe-020'],Project Management
+GrantBirki,git-diff-action,GrantBirki/git-diff-action,GrantBirki-git-diff-action-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Utilities
+GreenTF,upload-thunderstore-package,GreenTF/upload-thunderstore-package,GreenTF-upload-thunderstore-package-results.json,0,0,0,0,0,0,[],Publishing
+HardNorth,github-version-generate,HardNorth/github-version-generate,HardNorth-github-version-generate-results.json,3,0,0,1,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Publishing
+HatsuneMiku3939,direnv-action,HatsuneMiku3939/direnv-action,HatsuneMiku3939-direnv-action-results.json,6,0,0,1,5,0,"['cwe-020', 'cwe-338', 'cwe-400', 'cwe-730']",Testing
+JamesIves,fetch-api-data-action,JamesIves/fetch-api-data-action,JamesIves-fetch-api-data-action-results.json,0,0,0,0,0,0,[],Utilities
+JamesIves,github-pages-deploy-action,JamesIves/github-pages-deploy-action,JamesIves-github-pages-deploy-action-results.json,0,0,0,0,0,0,[],Deployment
+JarvusInnovations,background-action,JarvusInnovations/background-action,JarvusInnovations-background-action-results.json,2,0,0,1,1,0,"['cwe-078', 'cwe-088', 'cwe-312', 'cwe-359', 'cwe-532']",Utilities
+JasonEtco,build-and-tag-action,JasonEtco/build-and-tag-action,JasonEtco-build-and-tag-action-results.json,0,0,0,0,0,0,[],Publishing
+JasonEtco,create-an-issue,JasonEtco/create-an-issue,JasonEtco-create-an-issue-results.json,1,0,0,0,1,0,"['cwe-020', 'cwe-080', 'cwe-116']",Project Management
+JetBrains,qodana-action,JetBrains/qodana-action,JetBrains-qodana-action-results.json,7,0,0,4,3,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-117', 'cwe-367', 'cwe-377', 'cwe-378', 'cwe-434', 'cwe-912']",Security
+JorelAli,setup-elm,JorelAli/setup-elm,JorelAli-setup-elm-results.json,0,0,0,0,0,0,[],Continuous Integration
+Jtalk,url-health-check-action,Jtalk/url-health-check-action,Jtalk-url-health-check-action-results.json,0,0,0,0,0,0,[],Testing
+JulienKode,team-labeler-action,JulienKode/team-labeler-action,JulienKode-team-labeler-action-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+KyleMayes,install-llvm-action,KyleMayes/install-llvm-action,KyleMayes-install-llvm-action-results.json,2,0,0,1,1,0,"['cwe-200', 'cwe-367']",Dependency Management
+Legion2,swagger-ui-action,Legion2/swagger-ui-action,Legion2-swagger-ui-action-results.json,2,0,0,0,2,0,['cwe-020'],Utilities
+LouisBrunner,checks-action,LouisBrunner/checks-action,LouisBrunner-checks-action-results.json,3,0,0,2,1,0,"['cwe-020', 'cwe-117']",API Management
+LuisAlejandro,movie-box,LuisAlejandro/movie-box,LuisAlejandro-movie-box-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+MarkusJx,install-boost,MarkusJx/install-boost,MarkusJx-install-boost-results.json,8,0,0,2,6,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Continuous Integration
+Mastersam07,firebase-app-distribution-action,Mastersam07/firebase-app-distribution-action,Mastersam07-firebase-app-distribution-action-results.json,3,0,0,1,0,2,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Publishing
+MeilCli,npm-update-check-action,MeilCli/npm-update-check-action,MeilCli-npm-update-check-action-results.json,0,0,0,0,0,0,[],Utilities
+MishaKav,pytest-coverage-comment,MishaKav/pytest-coverage-comment,MishaKav-pytest-coverage-comment-results.json,2,0,0,1,1,0,['cwe-020'],Testing
+MorrisonCole,pr-lint-action,MorrisonCole/pr-lint-action,MorrisonCole-pr-lint-action-results.json,5,0,0,1,4,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+Mozilla-Actions,sccache-action,Mozilla-Actions/sccache-action,Mozilla-Actions-sccache-action-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Dependency Management
+OctopusDeploy,install-octopus-cli-action,OctopusDeploy/install-octopus-cli-action,OctopusDeploy-install-octopus-cli-action-results.json,0,0,0,0,0,0,[],Deployment
+ReactiveCircus,android-emulator-runner,ReactiveCircus/android-emulator-runner,ReactiveCircus-android-emulator-runner-results.json,24,0,0,24,0,0,"['cwe-078', 'cwe-088']",Testing
+Readme-Workflows,recent-activity,Readme-Workflows/recent-activity,Readme-Workflows-recent-activity-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+Rebilly,lexi,Rebilly/lexi,Rebilly-lexi-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-080', 'cwe-116']",Code Review
+Reedyuk,NPM-Version,Reedyuk/NPM-Version,Reedyuk-NPM-Version-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Publishing
+Reggionick,s3-deploy,Reggionick/s3-deploy,Reggionick-s3-deploy-results.json,0,0,0,0,0,0,[],Deployment
+Satak,webrequest-action,Satak/webrequest-action,Satak-webrequest-action-results.json,2,0,0,1,0,1,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Utilities
+ScribeMD,docker-cache,ScribeMD/docker-cache,ScribeMD-docker-cache-results.json,8,0,0,4,4,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+SethCohen,github-releases-to-discord,SethCohen/github-releases-to-discord,SethCohen-github-releases-to-discord-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Deployment
+SimonScholz,google-chat-action,SimonScholz/google-chat-action,SimonScholz-google-chat-action-results.json,1,0,0,0,1,0,['cwe-020'],Chat
+SpectralOps,spectral-github-action,SpectralOps/spectral-github-action,SpectralOps-spectral-github-action-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Security
+SvanBoxel,zaproxy-to-ghas,SvanBoxel/zaproxy-to-ghas,SvanBoxel-zaproxy-to-ghas-results.json,1,0,0,0,1,0,['cwe-020'],Testing
+TheMrMilchmann,setup-msvc-dev,TheMrMilchmann/setup-msvc-dev,TheMrMilchmann-setup-msvc-dev-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Utilities
+TimDaub,hetzner-cloud-deploy-server-action,TimDaub/hetzner-cloud-deploy-server-action,TimDaub-hetzner-cloud-deploy-server-action-results.json,0,0,0,0,0,0,[],Deployment
+TinkurLab,issue-labeler-action,TinkurLab/issue-labeler-action,TinkurLab-issue-labeler-action-results.json,0,0,0,0,0,0,[],Project Management
+TinkurLab,monorepo-pr-labeler-action,TinkurLab/monorepo-pr-labeler-action,TinkurLab-monorepo-pr-labeler-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Code Review
+TryGhost,action-deploy-theme,TryGhost/action-deploy-theme,TryGhost-action-deploy-theme-results.json,1,0,0,1,0,0,['cwe-020'],Deployment
+Tyrrrz,action-http-request,Tyrrrz/action-http-request,Tyrrrz-action-http-request-results.json,0,0,0,0,0,0,[],Utilities
+Wandalen,wretry.action,Wandalen/wretry.action,Wandalen-wretry.action-results.json,0,0,0,0,0,0,[],Deployment
+YOCKOW,Action-setup-swift,YOCKOW/Action-setup-swift,YOCKOW-Action-setup-swift-results.json,0,0,0,0,0,0,[],Utilities
+Zqzqsb,MultiSourceSnake,Zqzqsb/MultiSourceSnake,Zqzqsb-MultiSourceSnake-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-1333', 'cwe-400', 'cwe-730', 'cwe-940']",Utilities
+aGallea,tests-coverage-report,aGallea/tests-coverage-report,aGallea-tests-coverage-report-results.json,3,0,0,1,1,1,"['cwe-020', 'cwe-078', 'cwe-088']",Code Review
+abel0b,setup-premake,abel0b/setup-premake,abel0b-setup-premake-results.json,0,0,0,0,0,0,[],Continuous Integration
+abeyuya,actions-mention-to-slack,abeyuya/actions-mention-to-slack,abeyuya-actions-mention-to-slack-results.json,0,0,0,0,0,0,[],Chat
+abronin,ecr-retag-action,abronin/ecr-retag-action,abronin-ecr-retag-action-results.json,1,0,0,1,0,0,['cwe-020'],Utilities
+antongolub,action-setup-bun,antongolub/action-setup-bun,antongolub-action-setup-bun-results.json,9,0,0,4,5,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Continuous Integration
+apexskier,github-release-commenter,apexskier/github-release-commenter,apexskier-github-release-commenter-results.json,0,0,0,0,0,0,[],Utilities
+aquiladev,ipfs-action,aquiladev/ipfs-action,aquiladev-ipfs-action-results.json,6,0,0,2,4,0,"['cwe-020', 'cwe-940']",Deployment
+ardalanamini,auto-changelog,ardalanamini/auto-changelog,ardalanamini-auto-changelog-results.json,4,0,0,1,3,0,['cwe-020'],Utilities
+arduino,arduino-lint-action,arduino/arduino-lint-action,arduino-arduino-lint-action-results.json,0,0,0,0,0,0,[],Testing
+arduino,setup-arduino-cli,arduino/setup-arduino-cli,arduino-setup-arduino-cli-results.json,0,0,0,0,0,0,[],Utilities
+ashutoshvarma,action-cmake-build,ashutoshvarma/action-cmake-build,ashutoshvarma-action-cmake-build-results.json,0,0,0,0,0,0,[],Testing
+ashutoshvarma,setup-ninja,ashutoshvarma/setup-ninja,ashutoshvarma-setup-ninja-results.json,5,0,0,0,5,0,"['cwe-020', 'cwe-080', 'cwe-116']",Utilities
+aslafy-z,conventional-pr-title-action,aslafy-z/conventional-pr-title-action,aslafy-z-conventional-pr-title-action-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Code Review
+astral-sh,setup-uv,astral-sh/setup-uv,astral-sh-setup-uv-results.json,12,0,0,2,10,0,"['cwe-020', 'cwe-338', 'cwe-400', 'cwe-730']",Utilities
+atalent-labs,404-links,atalent-labs/404-links,atalent-labs-404-links-results.json,0,0,0,0,0,0,[],Code Quality
+atlassian,gajira-create,atlassian/gajira-create,atlassian-gajira-create-results.json,2,0,0,0,2,0,['cwe-020'],Project Management
+auguwu,clippy-action,auguwu/clippy-action,auguwu-clippy-action-results.json,2,0,0,1,1,0,['cwe-020'],Utilities
+autero1,action-terragrunt,autero1/action-terragrunt,autero1-action-terragrunt-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+aws-actions,amazon-ecr-login,aws-actions/amazon-ecr-login,aws-actions-amazon-ecr-login-results.json,0,0,0,0,0,0,[],Deployment
+aws-actions,amazon-ecs-render-task-definition,aws-actions/amazon-ecs-render-task-definition,aws-actions-amazon-ecs-render-task-definition-results.json,1,0,0,0,1,0,"['cwe-020', 'cwe-080', 'cwe-116']",Deployment
+aws-actions,aws-secretsmanager-get-secrets,aws-actions/aws-secretsmanager-get-secrets,aws-actions-aws-secretsmanager-get-secrets-results.json,7,0,0,0,7,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Security
+balena-io,deploy-to-balena-action,balena-io/deploy-to-balena-action,balena-io-deploy-to-balena-action-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Container CI
+batista,lint-filenames,batista/lint-filenames,batista-lint-filenames-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+bazelbuild,setup-bazelisk,bazelbuild/setup-bazelisk,bazelbuild-setup-bazelisk-results.json,7,0,0,2,5,0,"['cwe-020', 'cwe-338', 'cwe-400', 'cwe-730']",Testing
+benc-uk,workflow-dispatch,benc-uk/workflow-dispatch,benc-uk-workflow-dispatch-results.json,2,0,0,1,1,0,['cwe-020'],Deployment
+benchmark-action,github-action-benchmark,benchmark-action/github-action-benchmark,benchmark-action-github-action-benchmark-results.json,2,0,0,2,0,0,"['cwe-020', 'cwe-078', 'cwe-088']",Code Quality
+biomejs,setup-biome,biomejs/setup-biome,biomejs-setup-biome-results.json,15,0,0,0,15,0,['cwe-020'],Utilities
+blombard,move-to-next-iteration,blombard/move-to-next-iteration,blombard-move-to-next-iteration-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Utilities
+bobheadxi,deployments,bobheadxi/deployments,bobheadxi-deployments-results.json,2,0,0,0,2,0,['cwe-020'],Deployment
+borchero,terraform-plan-comment,borchero/terraform-plan-comment,borchero-terraform-plan-comment-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-327', 'cwe-328', 'cwe-367']",Deployment
+brown-ccv,alex-recommends,brown-ccv/alex-recommends,brown-ccv-alex-recommends-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+chf007,action-wechat-work,chf007/action-wechat-work,chf007-action-wechat-work-results.json,0,0,0,0,0,0,[],Chat
+chrisdickinson,setup-yq,chrisdickinson/setup-yq,chrisdickinson-setup-yq-results.json,0,0,0,0,0,0,[],Utilities
+cloudflare,pages-action,cloudflare/pages-action,cloudflare-pages-action-results.json,6,0,0,4,2,0,"['cwe-020', 'cwe-367']",Deployment
+codfish,semantic-release-action,codfish/semantic-release-action,codfish-semantic-release-action-results.json,0,0,0,0,0,0,[],Deployment
+corymhall,cdk-diff-action,corymhall/cdk-diff-action,corymhall-cdk-diff-action-results.json,74,0,0,71,3,0,"['cwe-020', 'cwe-080', 'cwe-116']",Continuous Integration
+crazy-max,ghaction-import-gpg,crazy-max/ghaction-import-gpg,crazy-max-ghaction-import-gpg-results.json,9,0,0,0,9,0,"['cwe-020', 'cwe-080', 'cwe-116']",Security
+crazy-max,ghaction-setup-containerd,crazy-max/ghaction-setup-containerd,crazy-max-ghaction-setup-containerd-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+crazy-max,ghaction-upx,crazy-max/ghaction-upx,crazy-max-ghaction-upx-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Deployment
+crazyurus,miniprogram-action,crazyurus/miniprogram-action,crazyurus-miniprogram-action-results.json,1,0,0,0,1,0,"['cwe-312', 'cwe-359', 'cwe-532']",Deployment
+dailydotdev,action-devcard,dailydotdev/action-devcard,dailydotdev-action-devcard-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+danielpalme,ReportGenerator-GitHub-Action,danielpalme/ReportGenerator-GitHub-Action,danielpalme-ReportGenerator-GitHub-Action-results.json,0,0,0,0,0,0,[],Testing
+darenm,Setup-VSTest,darenm/Setup-VSTest,darenm-Setup-VSTest-results.json,1,0,0,0,1,0,['cwe-020'],Testing
+dataaxiom,ghcr-cleanup-action,dataaxiom/ghcr-cleanup-action,dataaxiom-ghcr-cleanup-action-results.json,10,0,0,0,10,0,"['cwe-020', 'cwe-400', 'cwe-730']",Container CI
+davelosert,vitest-coverage-report-action,davelosert/vitest-coverage-report-action,davelosert-vitest-coverage-report-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-327', 'cwe-328', 'cwe-367']",Testing
+davidB,rust-cargo-make,davidB/rust-cargo-make,davidB-rust-cargo-make-results.json,2,0,0,0,2,0,['cwe-020'],Deployment
+dawidd6,action-ansible-playbook,dawidd6/action-ansible-playbook,dawidd6-action-ansible-playbook-results.json,2,0,0,1,1,0,"['cwe-078', 'cwe-088', 'cwe-256', 'cwe-260', 'cwe-313', 'cwe-522']",Deployment
+de-vri-es,setup-git-credentials,de-vri-es/setup-git-credentials,de-vri-es-setup-git-credentials-results.json,0,0,0,0,0,0,[],Security
+descope,assume-aws-role-from-gcp-action,descope/assume-aws-role-from-gcp-action,descope-assume-aws-role-from-gcp-action-results.json,1,0,0,0,1,0,['cwe-020'],Security
+dessant,lock-threads,dessant/lock-threads,dessant-lock-threads-results.json,2,0,0,1,1,0,['cwe-020'],Project Management
+devops-actions,json-to-file,devops-actions/json-to-file,devops-actions-json-to-file-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-367']",Utilities
+dhall-lang,setup-dhall,dhall-lang/setup-dhall,dhall-lang-setup-dhall-results.json,6,0,0,0,6,0,['cwe-020'],Dependency Management
+di-sukharev,opencommit,di-sukharev/opencommit,di-sukharev-opencommit-results.json,10,0,0,2,8,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-327', 'cwe-328', 'cwe-367', 'cwe-400', 'cwe-730']",Utilities
+dineshsonachalam,markdown-autodocs,dineshsonachalam/markdown-autodocs,dineshsonachalam-markdown-autodocs-results.json,0,0,0,0,0,0,[],Deployment
+dkershner6,aws-ssm-getparameters-action,dkershner6/aws-ssm-getparameters-action,dkershner6-aws-ssm-getparameters-action-results.json,2,0,0,1,1,0,['cwe-020'],Deployment
+dkershner6,jest-coverage-commenter-action,dkershner6/jest-coverage-commenter-action,dkershner6-jest-coverage-commenter-action-results.json,4,0,0,2,2,0,"['cwe-020', 'cwe-078', 'cwe-088']",Code Review
+dlemstra,code-sign-action,dlemstra/code-sign-action,dlemstra-code-sign-action-results.json,2,0,0,2,0,0,"['cwe-078', 'cwe-088']",Security
+docker-practice,actions-setup-docker,docker-practice/actions-setup-docker,docker-practice-actions-setup-docker-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Container CI
+docker,setup-buildx-action,docker/setup-buildx-action,docker-setup-buildx-action-results.json,1,0,0,0,1,0,['cwe-020'],Container CI
+dorny,test-reporter,dorny/test-reporter,dorny-test-reporter-results.json,9,0,0,2,7,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Testing
+dotnet,nbgv,dotnet/nbgv,dotnet-nbgv-results.json,0,0,0,0,0,0,[],Project Management
+dromara,issues-translate-action,dromara/issues-translate-action,dromara-issues-translate-action-results.json,2,0,0,0,2,0,['cwe-020'],Localization
+dynatrace-oss,dynatrace-github-action,dynatrace-oss/dynatrace-github-action,dynatrace-oss-dynatrace-github-action-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+editorconfig-checker,action-editorconfig-checker,editorconfig-checker/action-editorconfig-checker,editorconfig-checker-action-editorconfig-checker-results.json,2,0,0,1,1,0,['cwe-020'],Utilities
+einaregilsson,beanstalk-deploy,einaregilsson/beanstalk-deploy,einaregilsson-beanstalk-deploy-results.json,8,0,0,2,0,6,"['cwe-200', 'cwe-259', 'cwe-321', 'cwe-798']",Deployment
+endorlabs,github-action,endorlabs/github-action,endorlabs-github-action-results.json,4,0,0,0,4,0,['cwe-020'],Security
+eregon,publish-release,eregon/publish-release,eregon-publish-release-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+errata-ai,vale-action,errata-ai/vale-action,errata-ai-vale-action-results.json,0,0,0,0,0,0,[],Testing
+exercism,pr-commenter-action,exercism/pr-commenter-action,exercism-pr-commenter-action-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+expo,expo-github-action,expo/expo-github-action,expo-expo-github-action-results.json,37,0,0,13,24,0,"['cwe-020', 'cwe-078', 'cwe-088', 'cwe-338', 'cwe-400', 'cwe-730']",Deployment
+fabasoad,twilio-voice-call-action,fabasoad/twilio-voice-call-action,fabasoad-twilio-voice-call-action-results.json,1,0,0,1,0,0,['cwe-020'],Utilities
+fjogeleit,yaml-update-action,fjogeleit/yaml-update-action,fjogeleit-yaml-update-action-results.json,2,0,0,1,1,0,['cwe-020'],Utilities
+forcedotcom,run-code-analyzer,forcedotcom/run-code-analyzer,forcedotcom-run-code-analyzer-results.json,7,0,0,1,6,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-338', 'cwe-400', 'cwe-730']",Security
+fpicalausa,remove-stale-branches,fpicalausa/remove-stale-branches,fpicalausa-remove-stale-branches-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+frictionlessdata,frictionless-ci,frictionlessdata/frictionless-ci,frictionlessdata-frictionless-ci-results.json,0,0,0,0,0,0,[],Code Quality
+fwilhe2,setup-kotlin,fwilhe2/setup-kotlin,fwilhe2-setup-kotlin-results.json,1,0,0,0,1,0,['cwe-020'],Continuous Integration
+gabrielfalcao,pyenv-action,gabrielfalcao/pyenv-action,gabrielfalcao-pyenv-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-367', 'cwe-377', 'cwe-378']",Dependency Management
+gagoar,codeowners-generator,gagoar/codeowners-generator,gagoar-codeowners-generator-results.json,0,0,0,0,0,0,[],Utilities
+game-ci,unity-builder,game-ci/unity-builder,game-ci-unity-builder-results.json,11,0,0,8,3,0,"['cwe-020', 'cwe-078', 'cwe-080', 'cwe-088', 'cwe-116', 'cwe-200']",Game CI
+gautamkrishnar,keepalive-workflow,gautamkrishnar/keepalive-workflow,gautamkrishnar-keepalive-workflow-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-327', 'cwe-328', 'cwe-367']",Utilities
+getong,mariadb-action,getong/mariadb-action,getong-mariadb-action-results.json,1,0,0,0,0,1,"['cwe-259', 'cwe-321', 'cwe-798']",Container CI
+github,accessibility-alt-text-bot,github/accessibility-alt-text-bot,github-accessibility-alt-text-bot-results.json,0,0,0,0,0,0,[],Utilities
+github,branch-deploy,github/branch-deploy,github-branch-deploy-results.json,6,0,0,0,6,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Deployment
+github,combine-prs,github/combine-prs,github-combine-prs-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+github,command,github/command,github-command-results.json,2,0,0,0,2,0,['cwe-020'],Utilities
+google-github-actions,deploy-cloudrun,google-github-actions/deploy-cloudrun,google-github-actions-deploy-cloudrun-results.json,3,0,0,0,3,0,['cwe-020'],Deployment
+google-github-actions,get-gke-credentials,google-github-actions/get-gke-credentials,google-github-actions-get-gke-credentials-results.json,4,0,0,0,2,2,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Deployment
+google-github-actions,upload-cloud-storage,google-github-actions/upload-cloud-storage,google-github-actions-upload-cloud-storage-results.json,6,0,0,2,2,2,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Deployment
+grassedge,git-pr-release-action,grassedge/git-pr-release-action,grassedge-git-pr-release-action-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Deployment
+h5bp,server-configs-test,h5bp/server-configs-test,h5bp-server-configs-test-results.json,0,0,0,0,0,0,[],Testing
+jimmygchen,runner-fallback-action,jimmygchen/runner-fallback-action,jimmygchen-runner-fallback-action-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+jitterbit,get-changed-files,jitterbit/get-changed-files,jitterbit-get-changed-files-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+joao-zanutto,get-selected,joao-zanutto/get-selected,joao-zanutto-get-selected-results.json,2,0,0,0,2,0,['cwe-020'],Utilities
+jontze,action-mdbook,jontze/action-mdbook,jontze-action-mdbook-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+jpb06,jest-badges-action,jpb06/jest-badges-action,jpb06-jest-badges-action-results.json,3,0,0,2,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Testing
+julia-actions,RegisterAction,julia-actions/RegisterAction,julia-actions-RegisterAction-results.json,0,0,0,0,0,0,[],Publishing
+julia-actions,install-juliaup,julia-actions/install-juliaup,julia-actions-install-juliaup-results.json,0,0,0,0,0,0,[],Continuous Integration
+jwgmeligmeyling,pmd-github-action,jwgmeligmeyling/pmd-github-action,jwgmeligmeyling-pmd-github-action-results.json,2,0,0,0,2,0,['cwe-020'],Security
+kamilkisiela,bob,kamilkisiela/bob,kamilkisiela-bob-results.json,1,0,0,0,1,0,['cwe-367'],Continuous Integration
+kanadgupta,glitch-sync,kanadgupta/glitch-sync,kanadgupta-glitch-sync-results.json,0,0,0,0,0,0,[],Deployment
+kanga333,variable-mapper,kanga333/variable-mapper,kanga333-variable-mapper-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+kevin-david,zipalign-sign-android-release,kevin-david/zipalign-sign-android-release,kevin-david-zipalign-sign-android-release-results.json,0,0,0,0,0,0,[],Publishing
+kiegroup,git-backporting,kiegroup/git-backporting,kiegroup-git-backporting-results.json,14,0,0,0,8,6,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Continuous Integration
+kiegroup,github-action-build-chain,kiegroup/github-action-build-chain,kiegroup-github-action-build-chain-results.json,8,0,0,1,2,5,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Utilities
+kitabisa,docker-slim-action,kitabisa/docker-slim-action,kitabisa-docker-slim-action-results.json,0,0,0,0,0,0,[],Utilities
+ksivamuthu,aws-copilot-github-action,ksivamuthu/aws-copilot-github-action,ksivamuthu-aws-copilot-github-action-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+layer5labs,kanvas-snapshot,layer5labs/kanvas-snapshot,layer5labs-kanvas-snapshot-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+laytan,setup-odin,laytan/setup-odin,laytan-setup-odin-results.json,13,0,0,2,11,0,"['cwe-020', 'cwe-338', 'cwe-400', 'cwe-730']",Utilities
+leanix,nx-affected-dependencies-action,leanix/nx-affected-dependencies-action,leanix-nx-affected-dependencies-action-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Deployment
+lhotari,action-upterm,lhotari/action-upterm,lhotari-action-upterm-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+lindluni,actions-variable-groups,lindluni/actions-variable-groups,lindluni-actions-variable-groups-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+loopwerk,tag-changelog,loopwerk/tag-changelog,loopwerk-tag-changelog-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+lukka,run-cmake,lukka/run-cmake,lukka-run-cmake-results.json,3,0,0,2,1,0,"['cwe-020', 'cwe-080', 'cwe-116']",Dependency Management
+lukka,run-vcpkg,lukka/run-vcpkg,lukka-run-vcpkg-results.json,15,0,0,7,8,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-338', 'cwe-400', 'cwe-730']",Dependency Management
+lwojcik,github-action-feed-to-social-media,lwojcik/github-action-feed-to-social-media,lwojcik-github-action-feed-to-social-media-results.json,0,0,0,0,0,0,[],Utilities
+machulav,ec2-github-runner,machulav/ec2-github-runner,machulav-ec2-github-runner-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+mainmatter,ember-asset-size-action,mainmatter/ember-asset-size-action,mainmatter-ember-asset-size-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-080', 'cwe-116']",Deployment
+managedcode,MAUIAppVersion,managedcode/MAUIAppVersion,managedcode-MAUIAppVersion-results.json,0,0,0,0,0,0,[],Deployment
+manusa,actions-setup-minikube,manusa/actions-setup-minikube,manusa-actions-setup-minikube-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Container CI
+marocchino,validate-dependabot,marocchino/validate-dependabot,marocchino-validate-dependabot-results.json,2,0,0,0,2,0,['cwe-020'],Dependency Management
+martincostello,update-dotnet-sdk,martincostello/update-dotnet-sdk,martincostello-update-dotnet-sdk-results.json,4,0,0,0,4,0,"['cwe-020', 'cwe-327', 'cwe-328', 'cwe-367']",Utilities
+masci,datadog,masci/datadog,masci-datadog-results.json,0,0,0,0,0,0,[],Monitoring
+matlab-actions,setup-matlab,matlab-actions/setup-matlab,matlab-actions-setup-matlab-results.json,0,0,0,0,0,0,[],Utilities
+mattermost,action-mattermost-notify,mattermost/action-mattermost-notify,mattermost-action-mattermost-notify-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-367']",Utilities
+mattzcarey,code-review-gpt,mattzcarey/code-review-gpt,mattzcarey-code-review-gpt-results.json,2,0,0,2,0,0,"['cwe-078', 'cwe-088']",Code Review
+mbogh,test-ssl-action,mbogh/test-ssl-action,mbogh-test-ssl-action-results.json,4,0,0,3,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Security
+mheap,automatic-approve-action,mheap/automatic-approve-action,mheap-automatic-approve-action-results.json,0,0,0,0,0,0,[],Testing
+mheap,require-checklist-action,mheap/require-checklist-action,mheap-require-checklist-action-results.json,1,0,0,0,1,0,"['cwe-400', 'cwe-730']",Code Review
+microsoft,RichCodeNavIndexer,microsoft/RichCodeNavIndexer,microsoft-RichCodeNavIndexer-results.json,0,0,0,0,0,0,[],Code Review
+mikepenz,action-junit-report,mikepenz/action-junit-report,mikepenz-action-junit-report-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Testing
+mikesprague,teams-incoming-webhook-action,mikesprague/teams-incoming-webhook-action,mikesprague-teams-incoming-webhook-action-results.json,3,0,0,1,2,0,['cwe-020'],Utilities
+mlg87,pr-reviewer-slack-notify-action,mlg87/pr-reviewer-slack-notify-action,mlg87-pr-reviewer-slack-notify-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-080', 'cwe-116']",Code Review
+mlugg,setup-zig,mlugg/setup-zig,mlugg-setup-zig-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+moonrepo,setup-rust,moonrepo/setup-rust,moonrepo-setup-rust-results.json,1,0,0,0,1,0,"['cwe-400', 'cwe-730']",Utilities
+moropo-com,action-trigger-test-run,moropo-com/action-trigger-test-run,moropo-com-action-trigger-test-run-results.json,2,0,0,1,1,0,['cwe-020'],Testing
+mrrobotdotapp,classic-discord-webhook,mrrobotdotapp/classic-discord-webhook,mrrobotdotapp-classic-discord-webhook-results.json,1,0,0,0,1,0,['cwe-020'],Chat
+necojackarc,auto-request-review,necojackarc/auto-request-review,necojackarc-auto-request-review-results.json,2,0,0,0,2,0,['cwe-020'],Code Review
+nelonoel,branch-name,nelonoel/branch-name,nelonoel-branch-name-results.json,0,0,0,0,0,0,[],Deployment
+nick-fields,retry,nick-fields/retry,nick-fields-retry-results.json,2,0,0,2,0,0,"['cwe-020', 'cwe-078', 'cwe-088']",Utilities
+nicklegan,github-org-repo-metrics-action,nicklegan/github-org-repo-metrics-action,nicklegan-github-org-repo-metrics-action-results.json,4,0,0,0,4,0,['cwe-020'],Utilities
+nix-community,cache-nix-action,nix-community/cache-nix-action,nix-community-cache-nix-action-results.json,20,0,0,8,12,0,"['cwe-020', 'cwe-400', 'cwe-730']",Continuous Integration
+nowsecure,nowsecure-action,nowsecure/nowsecure-action,nowsecure-nowsecure-action-results.json,14,0,0,3,11,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-367']",Security
+ookami-kb,gh-pr-size-watcher,ookami-kb/gh-pr-size-watcher,ookami-kb-gh-pr-size-watcher-results.json,3,0,0,1,2,0,"['cwe-020', 'cwe-400', 'cwe-730']",Code Review
+oprypin,find-latest-tag,oprypin/find-latest-tag,oprypin-find-latest-tag-results.json,1,0,0,0,1,0,"['cwe-400', 'cwe-730']",Dependency Management
+opsless,ms-teams-github-actions,opsless/ms-teams-github-actions,opsless-ms-teams-github-actions-results.json,11,0,0,1,10,0,"['cwe-020', 'cwe-080', 'cwe-116']",Continuous Integration
+oracle-actions,run-oci-cli-command,oracle-actions/run-oci-cli-command,oracle-actions-run-oci-cli-command-results.json,1,0,0,0,1,0,['cwe-020'],Deployment
+paambaati,codeclimate-action,paambaati/codeclimate-action,paambaati-codeclimate-action-results.json,1,0,0,1,0,0,"['cwe-078', 'cwe-088']",Code Review
+parkerbxyz,suggest-changes,parkerbxyz/suggest-changes,parkerbxyz-suggest-changes-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+pascalgn,automerge-action,pascalgn/automerge-action,pascalgn-automerge-action-results.json,6,0,0,0,6,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Code Review
+peaceiris,actions-mdbook,peaceiris/actions-mdbook,peaceiris-actions-mdbook-results.json,0,0,0,0,0,0,[],Deployment
+peaceiris,actions-suggest-related-links,peaceiris/actions-suggest-related-links,peaceiris-actions-suggest-related-links-results.json,0,0,0,0,0,0,[],Utilities
+peckjon,reject-pr-approval-from-committer,peckjon/reject-pr-approval-from-committer,peckjon-reject-pr-approval-from-committer-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+peter-evans,find-comment,peter-evans/find-comment,peter-evans-find-comment-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+philips-software,sonar-scanner-action,philips-software/sonar-scanner-action,philips-software-sonar-scanner-action-results.json,1,0,0,0,1,0,['cwe-020'],Code Quality
+pixee,upload-tool-results-action,pixee/upload-tool-results-action,pixee-upload-tool-results-action-results.json,3,0,0,1,0,2,"['cwe-259', 'cwe-321', 'cwe-434', 'cwe-798', 'cwe-912']",Security
+shadowmoose,GHA-LoC-Badge,shadowmoose/GHA-LoC-Badge,shadowmoose-GHA-LoC-Badge-results.json,0,0,0,0,0,0,[],Utilities
+shallwefootball,upload-s3-action,shallwefootball/upload-s3-action,shallwefootball-upload-s3-action-results.json,1,0,0,0,1,0,['cwe-020'],Continuous Integration
+sherlo-io,sherlo,sherlo-io/sherlo,sherlo-io-sherlo-results.json,3,0,0,1,2,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-200']",Testing
+shimataro,ssh-key-action,shimataro/ssh-key-action,shimataro-ssh-key-action-results.json,6,0,0,2,4,0,"['cwe-020', 'cwe-327', 'cwe-328', 'cwe-367']",Deployment
+shioyang,check-pr-labels-on-push-action,shioyang/check-pr-labels-on-push-action,shioyang-check-pr-labels-on-push-action-results.json,1,0,0,0,1,0,['cwe-020'],Project Management
+shogo82148,actions-setup-redis,shogo82148/actions-setup-redis,shogo82148-actions-setup-redis-results.json,0,0,0,0,0,0,[],Testing
+shogo82148,actions-upload-release-asset,shogo82148/actions-upload-release-asset,shogo82148-actions-upload-release-asset-results.json,0,0,0,0,0,0,[],Publishing
+shonansurvivors,actions-s3-cache,shonansurvivors/actions-s3-cache,shonansurvivors-actions-s3-cache-results.json,6,0,0,4,2,0,"['cwe-020', 'cwe-078', 'cwe-080', 'cwe-088', 'cwe-116']",Deployment
+sibiraj-s,action-eslint,sibiraj-s/action-eslint,sibiraj-s-action-eslint-results.json,4,0,0,2,2,0,['cwe-020'],Code Quality
+sinedied,publish-devto,sinedied/publish-devto,sinedied-publish-devto-results.json,2,0,0,2,0,0,['cwe-020'],Deployment
+softprops,setup-aws-copilot,softprops/setup-aws-copilot,softprops-setup-aws-copilot-results.json,0,0,0,0,0,0,[],Deployment
+squarecloudofc,github-action,squarecloudofc/github-action,squarecloudofc-github-action-results.json,3,0,0,2,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Deployment
+stainless-api,upload-openapi-spec-action,stainless-api/upload-openapi-spec-action,stainless-api-upload-openapi-spec-action-results.json,1,0,0,1,0,0,['cwe-020'],Utilities
+steffen-karlsson,stalesweeper,steffen-karlsson/stalesweeper,steffen-karlsson-stalesweeper-results.json,3,0,0,1,2,0,['cwe-020'],Support
+step-security,wait-for-secrets,step-security/wait-for-secrets,step-security-wait-for-secrets-results.json,1,0,0,0,1,0,['cwe-020'],Security
+stepci,stepci,stepci/stepci,stepci-stepci-results.json,0,0,0,0,0,0,[],Testing
+stoat-dev,stoat-action,stoat-dev/stoat-action,stoat-dev-stoat-action-results.json,9,0,0,3,6,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-200', 'cwe-307', 'cwe-367', 'cwe-400', 'cwe-770']",Utilities
+superman66,wakatime-sync,superman66/wakatime-sync,superman66-wakatime-sync-results.json,1,0,0,0,1,0,['cwe-020'],Project Management
+swinton,screenshot-website,swinton/screenshot-website,swinton-screenshot-website-results.json,0,0,0,0,0,0,[],Code Quality
+synopsys-sig,detect-action,synopsys-sig/detect-action,synopsys-sig-detect-action-results.json,5,0,0,0,5,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-295', 'cwe-297']",Security
+sysdiglabs,scan-action,sysdiglabs/scan-action,sysdiglabs-scan-action-results.json,7,0,0,2,5,0,"['cwe-020', 'cwe-078', 'cwe-088', 'cwe-367', 'cwe-377', 'cwe-378']",Security
+szenius,notion-burndown,szenius/notion-burndown,szenius-notion-burndown-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-400', 'cwe-730']",Project Management
+teatimeguest,setup-texlive-action,teatimeguest/setup-texlive-action,teatimeguest-setup-texlive-action-results.json,3,0,0,0,3,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+technote-space,create-pr-action,technote-space/create-pr-action,technote-space-create-pr-action-results.json,0,0,0,0,0,0,[],Utilities
+test-room-7,action-update-file,test-room-7/action-update-file,test-room-7-action-update-file-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+test-summary,action,test-summary/action,test-summary-action-results.json,0,0,0,0,0,0,[],Testing
+the-actions-org,workflow-dispatch,the-actions-org/workflow-dispatch,the-actions-org-workflow-dispatch-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+thomaseizinger,keep-a-changelog-new-release,thomaseizinger/keep-a-changelog-new-release,thomaseizinger-keep-a-changelog-new-release-results.json,0,0,0,0,0,0,[],Publishing
+tibdex,backport,tibdex/backport,tibdex-backport-results.json,1,0,0,0,1,0,"['cwe-400', 'cwe-730']",Utilities
+tinovyatkin,action-php-codesniffer,tinovyatkin/action-php-codesniffer,tinovyatkin-action-php-codesniffer-results.json,2,0,0,1,1,0,"['cwe-020', 'cwe-078', 'cwe-088']",Code Review
+tj-actions,glob,tj-actions/glob,tj-actions-glob-results.json,1,0,0,0,1,0,['cwe-020'],Continuous Integration
+tmcw,notfoundbot,tmcw/notfoundbot,tmcw-notfoundbot-results.json,3,0,0,1,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Monitoring
+toshimaru,auto-author-assign,toshimaru/auto-author-assign,toshimaru-auto-author-assign-results.json,1,0,0,0,1,0,['cwe-020'],Project Management
+tubone24,update_release,tubone24/update_release,tubone24-update_release-results.json,2,0,0,0,2,0,['cwe-020'],Deployment
+turtlequeue,setup-babashka,turtlequeue/setup-babashka,turtlequeue-setup-babashka-results.json,1,0,0,1,0,0,['cwe-020'],Container CI
+umani,changed-files,umani/changed-files,umani-changed-files-results.json,1,0,0,0,1,0,"['cwe-400', 'cwe-730']",Utilities
+usimd,pi-gen-action,usimd/pi-gen-action,usimd-pi-gen-action-results.json,0,0,0,0,0,0,[],Publishing
+varunsridharan,action-github-workflow-sync,varunsridharan/action-github-workflow-sync,varunsridharan-action-github-workflow-sync-results.json,3,0,0,1,2,0,['cwe-020'],Utilities
+vimtor,action-zip,vimtor/action-zip,vimtor-action-zip-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-080', 'cwe-116']",Utilities
+vio,bundle-stats-action,vio/bundle-stats-action,vio-bundle-stats-action-results.json,0,0,0,0,0,0,[],Utilities
+vlaurin,action-ghcr-prune,vlaurin/action-ghcr-prune,vlaurin-action-ghcr-prune-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+vn7n24fzkq,github-profile-summary-cards,vn7n24fzkq/github-profile-summary-cards,vn7n24fzkq-github-profile-summary-cards-results.json,9,0,0,0,9,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-184']",Utilities
+volta-cli,action,volta-cli/action,volta-cli-action-results.json,7,0,0,0,3,4,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Utilities
+wangyucode,sftp-upload-action,wangyucode/sftp-upload-action,wangyucode-sftp-upload-action-results.json,0,0,0,0,0,0,[],Deployment
+wdzeng,edge-addon,wdzeng/edge-addon,wdzeng-edge-addon-results.json,0,0,0,0,0,0,[],Publishing
+we-cli,coverage-badge-action,we-cli/coverage-badge-action,we-cli-coverage-badge-action-results.json,0,0,0,0,0,0,[],Testing
+wechuli,allcheckspassed,wechuli/allcheckspassed,wechuli-allcheckspassed-results.json,2,0,0,0,2,0,['cwe-020'],Security
+wenkokke,setup-agda,wenkokke/setup-agda,wenkokke-setup-agda-results.json,8,0,0,0,8,0,"['cwe-020', 'cwe-080', 'cwe-116', 'cwe-327', 'cwe-367']",Utilities
+wktk,github-project-connect-action,wktk/github-project-connect-action,wktk-github-project-connect-action-results.json,2,0,0,1,1,0,['cwe-020'],Utilities
+workflow,nix-shell-action,workflow/nix-shell-action,workflow-nix-shell-action-results.json,1,0,0,0,1,0,['cwe-020'],Dependency Management
+worksome,jira-branch-name-validator-action,worksome/jira-branch-name-validator-action,worksome-jira-branch-name-validator-action-results.json,2,0,0,0,2,0,"['cwe-400', 'cwe-730']",Code Quality
+xavierLowmiller,xcodegen-action,xavierLowmiller/xcodegen-action,xavierLowmiller-xcodegen-action-results.json,0,0,0,0,0,0,[],Mobile CI
+xeol-io,bumpgen,xeol-io/bumpgen,xeol-io-bumpgen-results.json,0,0,0,0,0,0,[],Utilities
+xmake-io,github-action-setup-xmake,xmake-io/github-action-setup-xmake,xmake-io-github-action-setup-xmake-results.json,3,0,0,1,2,0,"['cwe-020', 'cwe-400', 'cwe-730']",Utilities
+xt0rted,dotnet-format,xt0rted/dotnet-format,xt0rted-dotnet-format-results.json,0,0,0,0,0,0,[],Code Quality
+xt0rted,slash-command-action,xt0rted/slash-command-action,xt0rted-slash-command-action-results.json,0,0,0,0,0,0,[],Chat
+yanamura,git-flow-merge-action,yanamura/git-flow-merge-action,yanamura-git-flow-merge-action-results.json,1,0,0,0,1,0,['cwe-020'],Utilities
+yc-actions,yc-sls-container-deploy,yc-actions/yc-sls-container-deploy,yc-actions-yc-sls-container-deploy-results.json,2,0,0,0,2,0,"['cwe-020', 'cwe-1333', 'cwe-400', 'cwe-730']",Deployment
+yogeshpaliyal,upload-indus-appstore,yogeshpaliyal/upload-indus-appstore,yogeshpaliyal-upload-indus-appstore-results.json,0,0,0,0,0,0,[],Deployment
+yuichielectric,dive-action,yuichielectric/dive-action,yuichielectric-dive-action-results.json,2,0,0,0,2,0,['cwe-020'],Container CI
+yuzutech,annotations-action,yuzutech/annotations-action,yuzutech-annotations-action-results.json,1,0,0,0,1,0,['cwe-020'],Code Review
+zentered,vercel-preview-url,zentered/vercel-preview-url,zentered-vercel-preview-url-results.json,2,0,0,0,1,1,"['cwe-020', 'cwe-259', 'cwe-321', 'cwe-798']",Utilities

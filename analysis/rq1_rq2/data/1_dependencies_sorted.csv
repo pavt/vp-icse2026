@@ -1,0 +1,292 @@
+repo_owner,repo_name,Number of Components,Total Vulnerabilities,Low,Medium,High,Critical,Category,CWE Tags
+10up,action-repo-automator,50,0,0,0,0,0,Code Review,[]
+1Password,load-secrets-action,21,3,2,0,0,1,Security,"['CWE-506', 'CWE-200', 'CWE-284']"
+42Crunch,api-security-audit-action,94,1,0,1,0,0,Testing,['CWE-1333']
+8398a7,action-slack,59,2,0,1,1,0,Chat,"['CWE-918', 'CWE-200']"
+AlexSim93,pull-request-analytics-action,79,3,3,0,0,0,Monitoring,"['CWE-200', 'CWE-284', 'CWE-200']"
+Anmol-Baranwal,DevtoGitHub,2,0,0,0,0,0,Utilities,[]
+Apple-Actions,download-provisioning-profiles,48,9,1,4,4,0,Mobile,"['CWE-74', 'CWE-20', 'N/A', 'CWE-1333', 'CWE-327', 'CWE-287', 'CWE-287', 'CWE-1333', 'CWE-400']"
+ArtiomTr,jest-coverage-report-action,348,12,1,4,5,2,Monitoring,"['CWE-184', 'CWE-400', 'CWE-400', 'CWE-506', 'CWE-1321', 'CWE-1333', 'CWE-835', 'CWE-285', 'CWE-674', 'N/A', 'CWE-74', 'CWE-1333', 'CWE-1333']"
+Azure,cli,26,0,0,0,0,0,Deployment,[]
+Azure,k8s-deploy,214,0,0,0,0,0,Deployment,[]
+Azure,k8s-lint,17,0,0,0,0,0,Code Review,[]
+Azure,k8s-set-context,132,4,0,2,1,1,Deployment,"['CWE-1333', 'CWE-94', 'CWE-918', 'CWE-1321']"
+Azure,mysql,44,4,0,1,1,2,Deployment,"['CWE-74', 'CWE-400', 'CWE-522', 'CWE-94']"
+Azure,pipelines,8,0,0,0,0,0,Deployment,[]
+Balastrong,chess-stats-action,9,1,0,1,0,0,Utilities,['CWE-74']
+BetaHuhn,deploy-to-vercel-action,161,9,0,2,6,1,Deployment,"['CWE-697', 'CWE-697', 'N/A', 'N/A', 'CWE-1333', 'CWE-1321', 'CWE-173', 'CWE-400', 'CWE-1333']"
+Bhacaz,docs-as-code-confluence,49,1,0,1,0,0,Utilities,['CWE-1333']
+Chocobo1,setup-ccache-action,83,0,0,0,0,0,Utilities,[]
+CircleCI-Public,trigger-circleci-pipeline-action,36,3,0,3,0,0,Deployment,"['CWE-352', 'CWE-20', 'CWE-200']"
+Cyberbeni,install-swift-tool,432,2,1,0,1,0,Utilities,"['CWE-770', 'CWE-1333']"
+CycloneDX,gh-node-module-generatebom,9,0,0,0,0,0,Security,[]
+DataDog,synthetics-ci-github-action,856,4,0,2,2,0,Testing,"['CWE-789', 'CWE-400', 'CWE-1333', 'CWE-1333']"
+DavideViolante,pr-reviews-reminder-action,20,0,0,0,0,0,Code Review,[]
+DeLaGuardo,setup-clojure,65,0,0,0,0,0,Utilities,[]
+DependencyTrack,gh-upload-sbom,4,0,0,0,0,0,Security,[]
+DevCycleHQ,feature-flag-code-usage-action,419,1,0,0,1,0,Code Review,['CWE-1333']
+DevCycleHQ,feature-flag-pr-insights-action,403,1,0,0,1,0,Code Review,['CWE-1333']
+DopplerHQ,cli-action,15,3,3,0,0,0,Security,"['CWE-200', 'CWE-284', 'CWE-200']"
+ExpediaGroup,github-helpers,70,0,0,0,0,0,Utilities,[]
+ExpediaGroup,spinnaker-pipeline-trigger,755,10,0,2,5,3,Project Management,"['CWE-184', 'CWE-184', 'CWE-184', 'CWE-94', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-476']"
+GrantBirki,git-diff-action,47,0,0,0,0,0,Utilities,[]
+GreenTF,upload-thunderstore-package,6,0,0,0,0,0,Publishing,[]
+HardNorth,github-version-generate,37,0,0,0,0,0,Publishing,[]
+HatsuneMiku3939,direnv-action,71,0,0,0,0,0,Testing,[]
+JamesIves,fetch-api-data-action,473,2,1,0,1,0,Utilities,"['CWE-770', 'CWE-1333']"
+JamesIves,github-pages-deploy-action,509,2,1,0,1,0,Deployment,"['CWE-770', 'CWE-1333']"
+JarvusInnovations,background-action,34,1,0,0,1,0,Utilities,['CWE-918']
+JasonEtco,build-and-tag-action,80,6,0,1,4,1,Publishing,"['CWE-74', 'CWE-1333', 'CWE-1321', 'CWE-173', 'CWE-1333', 'CWE-1333']"
+JasonEtco,create-an-issue,112,4,0,2,2,0,Project Management,"['CWE-1333', 'CWE-79', 'CWE-1333', 'CWE-1333']"
+JetBrains,qodana-action,320,1,0,0,1,0,Security,['CWE-1333']
+JorelAli,setup-elm,7,0,0,0,0,0,Continuous Integration,[]
+Jtalk,url-health-check-action,35,0,0,0,0,0,Testing,[]
+JulienKode,team-labeler-action,589,2,1,0,1,0,Code Review,"['CWE-1333', 'CWE-400']"
+KyleMayes,install-llvm-action,284,1,0,1,0,0,Dependency Management,['CWE-1333']
+Legion2,swagger-ui-action,41,0,0,0,0,0,Utilities,[]
+LouisBrunner,checks-action,40,0,0,0,0,0,API Management,[]
+LuisAlejandro,movie-box,200,3,0,1,2,0,Utilities,"['CWE-918', 'CWE-1333', 'CWE-79']"
+MarkusJx,install-boost,120,4,2,2,0,0,Continuous Integration,"['CWE-918', 'CWE-1321', 'CWE-200', 'CWE-284']"
+Mastersam07,firebase-app-distribution-action,64,4,2,1,1,0,Publishing,"['CWE-918', 'CWE-200', 'CWE-200', 'CWE-284']"
+MeilCli,npm-update-check-action,30,0,0,0,0,0,Utilities,[]
+MishaKav,pytest-coverage-comment,41,0,0,0,0,0,Testing,[]
+MorrisonCole,pr-lint-action,503,18,6,2,9,1,Utilities,"['CWE-184', 'CWE-697', 'CWE-400', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-918', 'CWE-918', 'CWE-1321', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-200']"
+Mozilla-Actions,sccache-action,33,0,0,0,0,0,Dependency Management,[]
+OctopusDeploy,install-octopus-cli-action,25,0,0,0,0,0,Deployment,[]
+ReactiveCircus,android-emulator-runner,28,0,0,0,0,0,Testing,[]
+Readme-Workflows,recent-activity,129,6,0,3,3,0,Utilities,"['CWE-918', 'CWE-352', 'CWE-1333', 'CWE-20', 'CWE-200', 'CWE-1333']"
+Rebilly,lexi,582,1,0,1,0,0,Code Review,['CWE-835']
+Reedyuk,NPM-Version,8,0,0,0,0,0,Publishing,[]
+Reggionick,s3-deploy,10,0,0,0,0,0,Deployment,[]
+Satak,webrequest-action,19,6,3,2,1,0,Utilities,"['CWE-918', 'CWE-20', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-200']"
+ScribeMD,docker-cache,575,12,2,6,4,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-693', 'CWE-79', 'CWE-150', 'CWE-1333', 'CWE-94', 'CWE-400', 'CWE-200', 'CWE-284', 'CWE-77', 'CWE-400']"
+SethCohen,github-releases-to-discord,35,0,0,0,0,0,Deployment,[]
+SimonScholz,google-chat-action,38,0,0,0,0,0,Chat,[]
+SpectralOps,spectral-github-action,12,2,0,1,1,0,Security,"['CWE-74', 'CWE-1333']"
+SvanBoxel,zaproxy-to-ghas,25,3,0,1,1,1,Testing,"['CWE-74', 'CWE-400', 'CWE-506']"
+TheMrMilchmann,setup-msvc-dev,133,0,0,0,0,0,Utilities,[]
+TimDaub,hetzner-cloud-deploy-server-action,5,3,0,2,1,0,Deployment,"['CWE-74', 'CWE-359', 'CWE-173']"
+TinkurLab,issue-labeler-action,26,0,0,0,0,0,Project Management,[]
+TinkurLab,monorepo-pr-labeler-action,28,0,0,0,0,0,Code Review,[]
+TryGhost,action-deploy-theme,420,0,0,0,0,0,Deployment,[]
+Tyrrrz,action-http-request,9,0,0,0,0,0,Utilities,[]
+Wandalen,wretry.action,16,0,0,0,0,0,Deployment,[]
+YOCKOW,Action-setup-swift,39,0,0,0,0,0,Utilities,[]
+Zqzqsb,MultiSourceSnake,1154,23,9,5,9,0,Utilities,"['CWE-405', 'CWE-74', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-79', 'N/A', 'N/A', 'N/A', 'N/A', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-79', 'CWE-79', 'CWE-200', 'CWE-200', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-284', 'CWE-200', 'CWE-200', 'CWE-79']"
+aGallea,tests-coverage-report,40,0,0,0,0,0,Code Review,[]
+abel0b,setup-premake,10,2,0,1,1,0,Continuous Integration,"['CWE-74', 'CWE-1333']"
+abeyuya,actions-mention-to-slack,45,3,0,3,0,0,Chat,"['CWE-352', 'CWE-20', 'CWE-200']"
+abronin,ecr-retag-action,594,9,2,2,5,0,Utilities,"['CWE-400', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-476']"
+antongolub,action-setup-bun,176,7,4,2,1,0,Continuous Integration,"['CWE-1333', 'CWE-1321', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-200', 'CWE-1321']"
+apexskier,github-release-commenter,614,28,0,10,15,3,Utilities,"['CWE-74', 'CWE-184', 'CWE-697', 'CWE-400', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-20', 'CWE-400', 'CWE-915', 'CWE-1321', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-400', 'CWE-1321', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-1321', 'CWE-1333', 'CWE-476', 'CWE-345']"
+aquiladev,ipfs-action,396,8,0,5,2,1,Deployment,"['CWE-352', 'CWE-1321', 'CWE-20', 'CWE-200', 'CWE-835', 'CWE-1321', 'CWE-1333', 'CWE-1333']"
+ardalanamini,auto-changelog,602,1,0,0,1,0,Utilities,['CWE-1333']
+arduino,arduino-lint-action,92,1,0,0,1,0,Testing,['CWE-1333']
+arduino,setup-arduino-cli,22,0,0,0,0,0,Utilities,[]
+ashutoshvarma,action-cmake-build,5,1,0,1,0,0,Testing,['CWE-74']
+ashutoshvarma,setup-ninja,62,8,0,6,1,1,Utilities,"['CWE-74', 'CWE-915', 'CWE-915', 'CWE-1321', 'CWE-22', 'CWE-1321', 'CWE-918', 'CWE-1321']"
+aslafy-z,conventional-pr-title-action,126,0,0,0,0,0,Code Review,[]
+astral-sh,setup-uv,107,0,0,0,0,0,Utilities,[]
+atalent-labs,404-links,51,0,0,0,0,0,Code Quality,[]
+atlassian,gajira-create,612,12,0,2,9,1,Project Management,"['CWE-184', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1321', 'CWE-1321', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-248']"
+auguwu,clippy-action,5,0,0,0,0,0,Utilities,[]
+autero1,action-terragrunt,39,0,0,0,0,0,Deployment,[]
+aws-actions,amazon-ecr-login,102,0,0,0,0,0,Deployment,[]
+aws-actions,amazon-ecs-render-task-definition,96,0,0,0,0,0,Deployment,[]
+aws-actions,aws-secretsmanager-get-secrets,106,0,0,0,0,0,Security,[]
+balena-io,deploy-to-balena-action,196,0,0,0,0,0,Container CI,[]
+batista,lint-filenames,36,1,0,1,0,0,Utilities,['CWE-74']
+bazelbuild,setup-bazelisk,76,2,2,0,0,0,Testing,"['CWE-200', 'CWE-284']"
+benc-uk,workflow-dispatch,5,0,0,0,0,0,Deployment,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+benchmark-action,github-action-benchmark,104,3,0,1,1,1,Code Quality,"['CWE-506', 'CWE-1333', 'CWE-400']"
+biomejs,setup-biome,45,12,1,2,9,0,Utilities,"['CWE-22', 'CWE-732', 'CWE-59', 'CWE-200', 'CWE-22', 'CWE-532', 'CWE-59', 'CWE-311', 'CWE-426', 'CWE-22', 'CWE-78', 'CWE-367']"
+blombard,move-to-next-iteration,25,0,0,0,0,0,Utilities,[]
+bobheadxi,deployments,36,0,0,0,0,0,Deployment,[]
+borchero,terraform-plan-comment,596,3,0,1,2,0,Deployment,"['CWE-1333', 'CWE-1333', 'CWE-79']"
+brown-ccv,alex-recommends,363,15,0,3,11,1,Code Review,"['CWE-74', 'CWE-697', 'CWE-697', 'CWE-1333', 'N/A', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-400', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-400']"
+chf007,action-wechat-work,10,3,0,3,0,0,Chat,"['CWE-352', 'CWE-20', 'CWE-200']"
+chrisdickinson,setup-yq,8,2,0,1,1,0,Utilities,"['CWE-74', 'CWE-1333']"
+cloudflare,pages-action,44,6,4,1,1,0,Deployment,"['CWE-1333', 'CWE-74', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-200']"
+codfish,semantic-release-action,532,7,1,2,4,0,Deployment,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-918', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-400']"
+corymhall,cdk-diff-action,845,0,0,0,0,0,Continuous Integration,[]
+crazy-max,ghaction-import-gpg,574,3,0,0,3,0,Security,"['CWE-1333', 'CWE-918', 'CWE-1333']"
+crazy-max,ghaction-setup-containerd,590,4,0,0,4,0,Utilities,"['CWE-1333', 'CWE-918', 'CWE-1333', 'CWE-1333']"
+crazy-max,ghaction-upx,577,2,0,0,2,0,Deployment,"['CWE-1333', 'CWE-918']"
+crazyurus,miniprogram-action,934,21,0,8,11,2,Deployment,"['CWE-184', 'CWE-184', 'CWE-400', 'CWE-1333', 'N/A', 'CWE-400', 'CWE-1333', 'CWE-835', 'CWE-400', 'CWE-1321', 'CWE-400', 'CWE-835', 'CWE-200', 'CWE-74', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1321', 'CWE-1321']"
+dailydotdev,action-devcard,190,1,0,0,1,0,Utilities,['CWE-1333']
+danielpalme,ReportGenerator-GitHub-Action,9,0,0,0,0,0,Testing,[]
+darenm,Setup-VSTest,33,1,0,0,1,0,Testing,['CWE-1333']
+dataaxiom,ghcr-cleanup-action,67,0,0,0,0,0,Container CI,[]
+davelosert,vitest-coverage-report-action,38,0,0,0,0,0,Testing,[]
+davidB,rust-cargo-make,32,0,0,0,0,0,Deployment,[]
+dawidd6,action-ansible-playbook,11,0,0,0,0,0,Deployment,[]
+de-vri-es,setup-git-credentials,11,0,0,0,0,0,Security,[]
+descope,assume-aws-role-from-gcp-action,669,5,0,1,3,1,Security,"['CWE-184', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333']"
+dessant,lock-threads,35,3,3,0,0,0,Project Management,"['CWE-200', 'CWE-284', 'CWE-200']"
+devops-actions,json-to-file,51,1,0,0,0,1,Utilities,['CWE-506']
+dhall-lang,setup-dhall,8,0,0,0,0,0,Dependency Management,[]
+di-sukharev,opencommit,234,4,0,3,1,0,Utilities,"['CWE-1333', 'CWE-835', 'CWE-835', 'CWE-79']"
+dineshsonachalam,markdown-autodocs,6,0,0,0,0,0,Deployment,[]
+dkershner6,aws-ssm-getparameters-action,743,6,3,1,2,0,Deployment,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+dkershner6,jest-coverage-commenter-action,665,6,3,1,2,0,Code Review,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+dlemstra,code-sign-action,9,0,0,0,0,0,Security,[]
+docker-practice,actions-setup-docker,4,0,0,0,0,0,Container CI,[]
+docker,setup-buildx-action,709,3,0,2,1,0,Container CI,"['CWE-1333', 'CWE-1333', 'CWE-1321']"
+dorny,test-reporter,134,5,3,1,1,0,Testing,"['CWE-400', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+dotnet,nbgv,312,3,0,1,2,0,Project Management,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+dromara,issues-translate-action,149,18,1,4,10,3,Localization,"['CWE-74', 'CWE-184', 'CWE-184', 'CWE-755', 'CWE-1333', 'CWE-400', 'N/A', 'CWE-1333', 'CWE-1321', 'CWE-77', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-400', 'CWE-400', 'CWE-1333', 'CWE-400']"
+dynatrace-oss,dynatrace-github-action,23,0,0,0,0,0,Utilities,[]
+editorconfig-checker,action-editorconfig-checker,32,4,3,0,1,0,Utilities,"['CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+einaregilsson,beanstalk-deploy,0,0,0,0,0,0,Deployment,[]
+endorlabs,github-action,650,3,0,1,2,0,Security,[]
+eregon,publish-release,54,1,0,0,1,0,Deployment,['CWE-1333']
+errata-ai,vale-action,97,2,0,0,2,0,Testing,"['CWE-1333', 'CWE-1333']"
+exercism,pr-commenter-action,35,0,0,0,0,0,Code Review,[]
+expo,expo-github-action,14,0,0,0,0,0,Deployment,[]
+fabasoad,twilio-voice-call-action,351,1,0,0,1,0,Utilities,['CWE-1333']
+fjogeleit,yaml-update-action,58,3,3,0,0,0,Utilities,"['CWE-200', 'CWE-284', 'CWE-200']"
+forcedotcom,run-code-analyzer,150,3,0,0,3,0,Security,"['CWE-22', 'CWE-1333', 'CWE-22']"
+fpicalausa,remove-stale-branches,28,0,0,0,0,0,Utilities,[]
+frictionlessdata,frictionless-ci,5,0,0,0,0,0,Code Quality,[]
+fwilhe2,setup-kotlin,489,1,0,0,1,0,Continuous Integration,['CWE-1333']
+gabrielfalcao,pyenv-action,35,3,3,0,0,0,Dependency Management,"['CWE-200', 'CWE-284', 'CWE-200']"
+gagoar,codeowners-generator,97,2,0,1,1,0,Utilities,"['CWE-400', 'CWE-1333']"
+game-ci,unity-builder,922,16,2,8,5,1,Game CI,"['CWE-400', 'CWE-1333', 'CWE-1333', 'N/A', 'CWE-400', 'CWE-400', 'CWE-94', 'CWE-1333', 'CWE-835', 'CWE-918', 'CWE-400', 'CWE-1321', 'CWE-200', 'CWE-284', 'CWE-476', 'CWE-476']"
+gautamkrishnar,keepalive-workflow,83,2,0,1,1,0,Utilities,"['CWE-269', 'CWE-269']"
+getong,mariadb-action,249,24,2,7,13,2,Container CI,"['CWE-400', 'CWE-915', 'CWE-697', 'CWE-697', 'CWE-1333', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-400', 'CWE-400', 'CWE-400', 'CWE-770', 'CWE-77', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-1321', 'CWE-200', 'CWE-400', 'CWE-20', 'CWE-1333', 'CWE-1333', 'CWE-20', 'CWE-915']"
+github,accessibility-alt-text-bot,344,1,0,0,1,0,Utilities,['CWE-1333']
+github,branch-deploy,51,0,0,0,0,0,Deployment,[]
+github,combine-prs,36,0,0,0,0,0,Utilities,[]
+github,command,48,0,0,0,0,0,Utilities,[]
+google-github-actions,deploy-cloudrun,92,1,0,1,0,0,Deployment,['CWE-1333']
+google-github-actions,get-gke-credentials,43,0,0,0,0,0,Deployment,[]
+google-github-actions,upload-cloud-storage,106,0,0,0,0,0,Deployment,[]
+grassedge,git-pr-release-action,431,41,3,14,19,5,Deployment,"['CWE-74', 'CWE-20', 'CWE-184', 'CWE-400', 'CWE-915', 'CWE-697', 'CWE-400', 'CWE-1333', 'CWE-20', 'CWE-94', 'CWE-1321', 'CWE-400', 'CWE-915', 'CWE-1321', 'CWE-668', 'CWE-770', 'CWE-77', 'CWE-400', 'CWE-770', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-1321', 'CWE-400', 'CWE-22', 'CWE-319', 'N/A', 'CWE-173', 'CWE-20', 'CWE-78', 'CWE-400', 'CWE-1321', 'CWE-918', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-1333', 'CWE-476', 'CWE-345', 'CWE-20', 'CWE-915']"
+h5bp,server-configs-test,177,1,0,0,1,0,Testing,['CWE-1333']
+jimmygchen,runner-fallback-action,14,0,0,0,0,0,Utilities,[]
+jitterbit,get-changed-files,653,40,4,14,19,3,Utilities,"['CWE-74', 'CWE-20', 'CWE-200', 'CWE-184', 'CWE-915', 'CWE-697', 'CWE-697', 'CWE-400', 'CWE-400', 'CWE-359', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-20', 'CWE-400', 'CWE-915', 'CWE-1321', 'CWE-770', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-20', 'CWE-173', 'CWE-20', 'CWE-78', 'CWE-400', 'CWE-1321', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1321', 'CWE-1321', 'CWE-1333', 'CWE-476', 'CWE-345', 'CWE-915']"
+joao-zanutto,get-selected,38,0,0,0,0,0,Utilities,[]
+jontze,action-mdbook,801,1,0,0,1,0,Deployment,['CWE-1333']
+jpb06,jest-badges-action,673,9,3,3,3,0,Testing,"['CWE-918', 'CWE-400', 'CWE-1333', 'CWE-20', 'CWE-200', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+julia-actions,RegisterAction,22,3,0,1,2,0,Publishing,"['CWE-74', 'CWE-173', 'CWE-1333']"
+julia-actions,install-juliaup,41,0,0,0,0,0,Continuous Integration,[]
+jwgmeligmeyling,pmd-github-action,70,5,0,2,2,1,Security,"['CWE-74', 'CWE-1321', 'CWE-400', 'CWE-1321', 'CWE-173']"
+kamilkisiela,bob,541,16,0,7,8,1,Continuous Integration,"['CWE-184', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-835', 'CWE-74', 'CWE-79', 'CWE-1333', 'CWE-1333', 'CWE-178', 'CWE-50', 'CWE-200', 'CWE-200', 'CWE-79', 'CWE-1333']"
+kanadgupta,glitch-sync,5,0,0,0,0,0,Deployment,[]
+kanga333,variable-mapper,18,0,0,0,0,0,Utilities,[]
+kevin-david,zipalign-sign-android-release,17,0,0,0,0,0,Publishing,[]
+kiegroup,git-backporting,68,0,0,0,0,0,Continuous Integration,[]
+kiegroup,github-action-build-chain,103,5,0,4,1,0,Utilities,"['CWE-352', 'CWE-918', 'CWE-352', 'CWE-20', 'CWE-200']"
+kitabisa,docker-slim-action,55,0,0,0,0,0,Utilities,[]
+ksivamuthu,aws-copilot-github-action,13,0,0,0,0,0,Deployment,[]
+layer5labs,kanvas-snapshot,513,12,0,5,7,0,Code Review,"['CWE-918', 'CWE-918', 'CWE-755', 'CWE-918', 'CWE-352', 'CWE-1333', 'CWE-1333', 'CWE-20', 'CWE-200', 'CWE-400', 'CWE-755', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1321', 'CWE-1321', 'CWE-476']"
+laytan,setup-odin,120,1,0,0,1,0,Utilities,['CWE-1333']
+leanix,nx-affected-dependencies-action,9,1,0,1,0,0,Deployment,['CWE-74']
+lhotari,action-upterm,2,0,0,0,0,0,Utilities,[]
+lindluni,actions-variable-groups,29,0,0,0,0,0,Utilities,[]
+loopwerk,tag-changelog,37,0,0,0,0,0,Deployment,[]
+lukka,run-cmake,378,1,0,0,1,0,Dependency Management,['CWE-1333']
+lukka,run-vcpkg,422,2,0,0,2,0,Dependency Management,"['CWE-1333', 'CWE-77']"
+lwojcik,github-action-feed-to-social-media,3,0,0,0,0,0,Utilities,[]
+machulav,ec2-github-runner,111,0,0,0,0,0,Utilities,[]
+mainmatter,ember-asset-size-action,124,7,0,1,6,0,Deployment,"['CWE-74', 'CWE-1333', 'CWE-400', 'CWE-173', 'CWE-1333', 'CWE-1333', 'CWE-400']"
+managedcode,MAUIAppVersion,27,0,0,0,0,0,Deployment,[]
+manusa,actions-setup-minikube,43,4,3,0,1,0,Container CI,"['CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+marocchino,validate-dependabot,754,2,0,1,1,0,Dependency Management,"['CWE-1333', 'CWE-1333']"
+martincostello,update-dotnet-sdk,72,0,0,0,0,0,Utilities,[]
+masci,datadog,13,0,0,0,0,0,Monitoring,[]
+matlab-actions,setup-matlab,61,0,0,0,0,0,Utilities,[]
+mattermost,action-mattermost-notify,17,0,0,0,0,0,Utilities,[]
+mattzcarey,code-review-gpt,1162,17,6,5,6,0,Code Review,"['CWE-89', 'CWE-755', 'CWE-405', 'CWE-400', 'CWE-74', 'CWE-74', 'CWE-1333', 'CWE-1333', 'CWE-601', 'CWE-79', 'CWE-22', 'CWE-22', 'CWE-22', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-755', 'CWE-79', 'CWE-79']"
+mbogh,test-ssl-action,10,0,0,0,0,0,Security,[]
+mheap,automatic-approve-action,32,1,0,0,1,0,Testing,['CWE-173']
+mheap,require-checklist-action,30,0,0,0,0,0,Code Review,[]
+microsoft,RichCodeNavIndexer,380,40,4,11,21,4,Code Review,"['CWE-74', 'CWE-20', 'CWE-74', 'CWE-184', 'CWE-755', 'CWE-697', 'CWE-697', 'CWE-352', 'CWE-400', 'CWE-1333', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-20', 'CWE-200', 'CWE-400', 'CWE-915', 'CWE-1321', 'CWE-77', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-20', 'CWE-400', 'CWE-1321', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-269', 'CWE-269', 'CWE-22', 'CWE-22', 'CWE-22', 'CWE-22', 'CWE-22', 'CWE-400', 'CWE-1321', 'CWE-20']"
+mikepenz,action-junit-report,145,0,0,0,0,0,Testing,[]
+mikesprague,teams-incoming-webhook-action,58,0,0,0,0,0,Utilities,[]
+mlg87,pr-reviewer-slack-notify-action,1093,5,0,2,3,0,Code Review,"['CWE-918', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-400']"
+mlugg,setup-zig,78,1,0,0,1,0,Utilities,['CWE-400']
+moonrepo,setup-rust,406,3,0,1,2,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+moropo-com,action-trigger-test-run,44,3,3,0,0,0,Testing,"['CWE-200', 'CWE-284', 'CWE-200']"
+mrrobotdotapp,classic-discord-webhook,62,3,0,1,2,0,Chat,"['CWE-1333', 'CWE-476', 'CWE-1333']"
+necojackarc,auto-request-review,36,0,0,0,0,0,Code Review,[]
+nelonoel,branch-name,3,1,0,1,0,0,Deployment,['CWE-74']
+nick-fields,retry,15,3,3,0,0,0,Utilities,"['CWE-200', 'CWE-284', 'CWE-200']"
+nicklegan,github-org-repo-metrics-action,66,4,0,2,2,0,Utilities,"['CWE-327', 'CWE-287', 'CWE-287', 'CWE-1333']"
+nix-community,cache-nix-action,92,2,2,0,0,0,Continuous Integration,"['CWE-200', 'CWE-284']"
+nowsecure,nowsecure-action,480,13,6,3,3,1,Security,"['CWE-184', 'CWE-400', 'CWE-1333', 'CWE-693', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200', 'CWE-400', 'CWE-200', 'CWE-284', 'CWE-200']"
+ookami-kb,gh-pr-size-watcher,28,3,2,0,0,1,Code Review,"['CWE-506', 'CWE-200', 'CWE-284']"
+oprypin,find-latest-tag,28,0,0,0,0,0,Dependency Management,[]
+opsless,ms-teams-github-actions,55,2,2,0,0,0,Continuous Integration,"['CWE-200', 'CWE-284']"
+oracle-actions,run-oci-cli-command,18,0,0,0,0,0,Deployment,[]
+paambaati,codeclimate-action,508,1,0,0,1,0,Code Review,['CWE-1333']
+parkerbxyz,suggest-changes,26,0,0,0,0,0,Code Review,[]
+pascalgn,automerge-action,389,3,0,1,2,0,Code Review,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+peaceiris,actions-mdbook,28,0,0,0,0,0,Deployment,[]
+peaceiris,actions-suggest-related-links,124,13,0,9,4,0,Utilities,"['CWE-74', 'CWE-75', 'CWE-345', 'CWE-345', 'CWE-400', 'CWE-400', 'CWE-697', 'CWE-327', 'CWE-200', 'CWE-670', 'CWE-200', 'CWE-200', 'CWE-669']"
+peckjon,reject-pr-approval-from-committer,33,0,0,0,0,0,Code Review,[]
+peter-evans,find-comment,36,0,0,0,0,0,Utilities,[]
+philips-software,sonar-scanner-action,387,3,0,1,2,0,Code Quality,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+pixee,upload-tool-results-action,50,3,2,0,1,0,Security,"['CWE-918', 'CWE-200', 'CWE-284']"
+shadowmoose,GHA-LoC-Badge,22,3,1,1,1,0,Utilities,"['CWE-74', 'CWE-20', 'CWE-400']"
+shallwefootball,upload-s3-action,73,2,0,2,0,0,Continuous Integration,"['CWE-835', 'CWE-1321']"
+sherlo-io,sherlo,2884,30,5,9,16,0,Testing,"['CWE-918', 'CWE-405', 'CWE-400', 'CWE-400', 'CWE-74', 'CWE-1333', 'CWE-1333', 'CWE-248', 'CWE-347', 'CWE-79', 'CWE-1321', 'CWE-400', 'CWE-918', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-835', 'CWE-835', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-79', 'CWE-79', 'CWE-400', 'CWE-22', 'CWE-476', 'CWE-476', 'CWE-476', 'CWE-1321']"
+shimataro,ssh-key-action,13,0,0,0,0,0,Deployment,[]
+shioyang,check-pr-labels-on-push-action,24,2,2,0,0,0,Project Management,"['CWE-200', 'CWE-284']"
+shogo82148,actions-setup-redis,49,0,0,0,0,0,Testing,[]
+shogo82148,actions-upload-release-asset,28,0,0,0,0,0,Publishing,[]
+shonansurvivors,actions-s3-cache,22,4,1,2,1,0,Deployment,"['CWE-74', 'CWE-20', 'CWE-1321', 'CWE-1321']"
+sibiraj-s,action-eslint,31,0,0,0,0,0,Code Quality,[]
+sinedied,publish-devto,526,3,0,2,1,0,Deployment,"['CWE-1333', 'CWE-1333', 'CWE-79']"
+softprops,setup-aws-copilot,10,2,0,1,1,0,Deployment,"['CWE-74', 'CWE-1333']"
+squarecloudofc,github-action,32,0,0,0,0,0,Deployment,[]
+stainless-api,upload-openapi-spec-action,167,1,0,0,1,0,Utilities,['CWE-1333']
+steffen-karlsson,stalesweeper,19,2,2,0,0,0,Support,"['CWE-200', 'CWE-284']"
+step-security,wait-for-secrets,37,0,0,0,0,0,Security,[]
+stepci,stepci,281,5,0,3,0,2,Testing,"['CWE-789', 'CWE-352', 'CWE-200', 'CWE-94', 'CWE-94']"
+stoat-dev,stoat-action,2607,19,4,6,9,0,Utilities,"['CWE-405', 'CWE-405', 'CWE-400', 'CWE-400', 'CWE-400', 'CWE-74', 'CWE-74', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-79', 'CWE-79', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-835', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-79', 'CWE-79', 'CWE-79', 'CWE-79', 'CWE-79', 'CWE-476', 'CWE-476']"
+superman66,wakatime-sync,52,8,0,4,4,0,Project Management,"['CWE-352', 'CWE-1333', 'CWE-200', 'CWE-20', 'CWE-200', 'CWE-770', 'CWE-173', 'CWE-1333']"
+swinton,screenshot-website,103,5,1,1,3,0,Code Quality,"['CWE-400', 'CWE-400', 'CWE-22', 'CWE-1321', 'CWE-476']"
+synopsys-sig,detect-action,57,3,0,1,2,0,Security,"['CWE-74', 'CWE-400', 'CWE-1333']"
+sysdiglabs,scan-action,36,0,0,0,0,0,Security,[]
+szenius,notion-burndown,59,6,2,2,2,0,Project Management,"['CWE-74', 'CWE-400', 'CWE-319', 'N/A', 'CWE-173', 'CWE-20']"
+teatimeguest,setup-texlive-action,125,0,0,0,0,0,Utilities,[]
+technote-space,create-pr-action,731,25,1,8,16,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-918', 'CWE-918', 'CWE-1321', 'CWE-1321', 'CWE-1333', 'CWE-835', 'CWE-74', 'CWE-79', 'CWE-79', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-178', 'CWE-50', 'CWE-200', 'CWE-200', 'CWE-79', 'CWE-1333', 'CWE-248']"
+test-room-7,action-update-file,53,2,0,1,1,0,Utilities,"['CWE-400', 'CWE-1333']"
+test-summary,action,25,0,0,0,0,0,Testing,[]
+the-actions-org,workflow-dispatch,161,3,0,1,2,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+thomaseizinger,keep-a-changelog-new-release,952,27,6,9,11,1,Publishing,"['CWE-74', 'CWE-20', 'CWE-184', 'CWE-400', 'CWE-697', 'CWE-400', 'CWE-400', 'CWE-359', 'CWE-1333', 'CWE-347', 'CWE-347', 'CWE-130', 'CWE-347', 'CWE-347', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-173', 'CWE-78', 'CWE-918', 'CWE-1333', 'CWE-1321', 'CWE-400', 'CWE-476', 'CWE-476', 'CWE-345', 'CWE-915']"
+tibdex,backport,477,4,0,1,2,1,Utilities,"['CWE-184', 'CWE-400', 'CWE-1333', 'CWE-1333']"
+tinovyatkin,action-php-codesniffer,45,2,0,1,0,1,Code Review,"['CWE-74', 'CWE-506']"
+tj-actions,glob,543,0,0,0,0,0,Continuous Integration,[]
+tmcw,notfoundbot,642,36,0,12,20,4,Monitoring,"['CWE-74', 'CWE-74', 'CWE-184', 'CWE-697', 'CWE-697', 'CWE-697', 'CWE-400', 'CWE-1333', 'CWE-400', 'CWE-94', 'CWE-1321', 'CWE-400', 'CWE-915', 'CWE-77', 'CWE-400', 'CWE-770', 'CWE-77', 'CWE-1333', 'CWE-400', 'CWE-173', 'CWE-1333', 'CWE-1321', 'CWE-918', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-269', 'CWE-269', 'CWE-1321', 'CWE-1321', 'CWE-1321', 'CWE-400', 'CWE-400', 'CWE-400', 'CWE-400', 'CWE-1321']"
+toshimaru,auto-author-assign,27,0,0,0,0,0,Project Management,[]
+tubone24,update_release,66,5,0,1,4,0,Deployment,"['CWE-74', 'CWE-1333', 'CWE-770', 'CWE-173', 'CWE-1333']"
+turtlequeue,setup-babashka,569,9,3,1,5,0,Container CI,"['CWE-400', 'CWE-1333', 'CWE-1321', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-200', 'CWE-284', 'CWE-284', 'CWE-200', 'CWE-200']"
+umani,changed-files,160,4,0,1,3,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333']"
+usimd,pi-gen-action,52,3,3,0,0,0,Publishing,"['CWE-200', 'CWE-284', 'CWE-200']"
+varunsridharan,action-github-workflow-sync,53,0,0,0,0,0,Utilities,[]
+vimtor,action-zip,243,24,2,8,11,3,Utilities,"['CWE-200', 'CWE-915', 'CWE-697', 'CWE-697', 'CWE-1333', 'CWE-400', 'CWE-400', 'CWE-400', 'CWE-1321', 'CWE-22', 'CWE-77', 'CWE-400', 'CWE-770', 'CWE-400', 'CWE-1321', 'CWE-173', 'CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-400', 'CWE-1333', 'CWE-77', 'CWE-1333', 'CWE-29']"
+vio,bundle-stats-action,90,5,0,1,4,0,Utilities,"['CWE-20', 'N/A', 'CWE-1333', 'CWE-400', 'CWE-1333']"
+vlaurin,action-ghcr-prune,30,0,0,0,0,0,Utilities,[]
+vn7n24fzkq,github-profile-summary-cards,143,1,0,0,1,0,Utilities,['CWE-400']
+volta-cli,action,4,0,0,0,0,0,Utilities,[]
+wangyucode,sftp-upload-action,10,0,0,0,0,0,Deployment,[]
+wdzeng,edge-addon,447,4,0,2,2,0,Publishing,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-835']"
+we-cli,coverage-badge-action,3,0,0,0,0,0,Testing,[]
+wechuli,allcheckspassed,36,0,0,0,0,0,Security,[]
+wenkokke,setup-agda,195,1,0,0,1,0,Utilities,['CWE-1333']
+wktk,github-project-connect-action,160,6,3,1,2,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-200', 'CWE-284', 'CWE-200']"
+workflow,nix-shell-action,12,0,0,0,0,0,Dependency Management,[]
+worksome,jira-branch-name-validator-action,3,0,0,0,0,0,Code Quality,[]
+xavierLowmiller,xcodegen-action,9,0,0,0,0,0,Mobile CI,[]
+xeol-io,bumpgen,1006,12,4,2,6,0,Utilities,"['CWE-405', 'CWE-400', 'CWE-74', 'CWE-1333', 'CWE-79', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-79', 'CWE-79', 'CWE-79', 'CWE-476']"
+xmake-io,github-action-setup-xmake,445,3,0,1,2,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333']"
+xt0rted,dotnet-format,186,4,0,1,3,0,Code Quality,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333']"
+xt0rted,slash-command-action,35,0,0,0,0,0,Chat,[]
+yanamura,git-flow-merge-action,352,5,0,2,3,0,Utilities,"['CWE-400', 'CWE-1333', 'CWE-1333', 'CWE-1333', 'CWE-1333']"
+yc-actions,yc-sls-container-deploy,104,0,0,0,0,0,Deployment,[]
+yogeshpaliyal,upload-indus-appstore,34,3,0,1,1,1,Deployment,"['CWE-918', 'CWE-200', 'CWE-506']"
+yuichielectric,dive-action,42,0,0,0,0,0,Container CI,[]
+yuzutech,annotations-action,28,2,0,1,1,0,Code Review,"['CWE-74', 'CWE-173']"
+zentered,vercel-preview-url,26,0,0,0,0,0,Utilities,[]
