@@ -1,42 +1,45 @@
 # Shadows on the Spotless Workflow: The Vulnerability Proneness of GitHub Actions - Replication Package
 
-This repository contains the replication package associated with the study _Shadows on the Spotless Workflow: The Vulnerability Proneness of GitHub Actions_. It provides the data and scripts used for extraction, analysis, and validation of results in the study.
+This repository contains the replication package associated with the study _Shadows on the Spotless Workflow: The Vulnerability Proneness of GitHub Actions_. It provides the data, scripts, and methodologies used for data collection, vulnerability extraction, and analysis.
 
 ## Repository Structure
 
-The repository is organized into the following sections:
+The repository is structured into two main sections:
 
-### 1. Data Extraction
-Contains scripts and procedures used to extract data related to the vulnerability of GitHub Actions from multiple sources, including the GitHub API and security databases.
+### 1. Data Collection and Vulnerability Extraction
+This section includes scripts and tools used to collect repository metadata and extract vulnerabilities from both source code and dependencies.
 
-- **`data_extraction/`**: Code and documentation for data collection.
-- **`raw_data/`**: Raw data obtained from extraction.
+#### 1.1. Vulnerability Extraction from Source Code with CodeQL
+- Uses **CodeQL** to analyze JavaScript and TypeScript-based GitHub Actions and detect security vulnerabilities.
+- Extracts Common Weakness Enumerations (CWEs) and categorizes security flaws.
 
-### 2. (Repository) Meta-Data Collection
-Includes tools and methods used to collect metadata from repositories that contain GitHub Actions workflows.
+📂 **`data_extraction/source_code_analysis/`**  
+- Scripts for cloning repositories and performing CodeQL analysis.  
+- Results from vulnerability detection in source code.
 
-- **`metadata/`**: Structured information about repositories, including the number of workflows, permissions used, and dependencies.
+#### 1.2. Vulnerability Extraction from Dependencies with Syft and Grype
+- Uses **Syft** to generate a Software Bill of Materials (SBOM) for each Action.  
+- Uses **Grype** to detect vulnerabilities in dependencies based on SBOM analysis.  
 
-### 3. Study
-This section contains the analyses and results of the study, organized according to the research questions.
+📂 **`data_extraction/dependency_analysis/`**  
+- Scripts for SBOM generation and dependency vulnerability scanning.  
+- Extracted vulnerability data from dependencies.
 
-#### 3.1. RQ1
-Analysis of the prevalence of vulnerabilities in GitHub Actions workflows.
+### 2. Data Analysis
+This section contains scripts and data used to analyze the relationship between vulnerabilities and adoption trends, categorize risk levels across GitHub Marketplace, and predict vulnerability-proneness based on repository metadata.
 
-- **`RQ1/`**: Code and data specific to answering Research Question 1 (RQ1).
+#### 2.1. RQ1 & RQ2: Vulnerability Trends and Category-Based Analysis
+- Examines how vulnerability-proneness correlates with the popularity and adoption of GitHub Actions.  
+- Identifies high-risk categories in the GitHub Marketplace.  
 
-#### 3.2. RQ2
-Evaluation of insecure configurations and their impact on workflow security.
+📂 **`analysis/rq1_rq2/`**  
+- Scripts for computing vulnerability metrics and performing statistical analysis.  
+- Aggregated vulnerability scores and category-based risk assessments.
 
-- **`RQ2/`**: Code and data used to answer Research Question 2 (RQ2).
+#### 2.2. RQ3: Predicting Vulnerability-Proneness with Contextual Information
+- Investigates whether metadata from GitHub repositories can predict the vulnerability-proneness of Actions.  
+- Uses machine learning models to assess security risks without direct code inspection.  
 
-#### 3.3. RQ3
-Exploration of vulnerability patterns and trends in public repositories.
-
-- **`RQ3/`**: Code and data used to answer Research Question 3 (RQ3).
-
-
-
-
-
-
+📂 **`analysis/rq3/`**  
+- Feature extraction scripts from repository metadata (**Meta-Data Collection** section).  
+- Models and evaluation metrics for vulnerability prediction.
